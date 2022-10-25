@@ -11,6 +11,7 @@
         justify-content: center;
         a {
             color: #ffffff;
+            font-size: 1.3rem;
             padding: 0 0.3rem;
         }
     }
@@ -176,7 +177,7 @@
                 width: 450px;
             }
             .icons a {
-                font-size: 1.8rem;
+                font-size: 2rem;
                 padding: 0 0.5rem;
             }
         }
@@ -312,7 +313,7 @@
                         h6 {
                             font-size: 1rem;
                             color: #ffffff;
-                            margin: 0;
+                            margin: 0 0 0.5rem 0;
                         }
                         p {
                             font-size: 0.8rem;
@@ -322,7 +323,7 @@
                     .contact {
                         display: block;
                         h6 {
-                            margin: 0;
+                            margin: 0.5rem 0;
                             color: #ffffff;
                             font-size: 1rem;
                         }
@@ -351,12 +352,13 @@
                     flex-direction: column;
                     margin: 1.5rem 0 0 0;
                     h6 {
-                        margin: 0;
+                        margin: 0 0 0.5rem;
                         color: #ffffff;
                         font-size: 1rem;
                     }
                     a {
                         color: #ffffff;
+                        font-size: 1rem;
                         text-align: right;
                         
                     }
@@ -441,7 +443,7 @@
                         h6 {
                             font-size: 1.3rem;
                             color: #ffffff;
-                            margin: 0;
+                            margin: 0 0 0.5rem 0;
                         }
                         p {
                             font-size: 1rem;
@@ -451,7 +453,7 @@
                     .contact {
                         display: block;
                         h6 {
-                            margin: 0;
+                            margin: 0.5rem 0;
                             color: #ffffff;
                             font-size: 1.3rem;
                         }
@@ -480,14 +482,14 @@
                     flex-direction: column;
                     margin: 1.5rem 0 0 0;
                     h6 {
-                        margin: 0;
+                        margin: 0 0 0.5rem 0;
                         color: #ffffff;
                         font-size: 1.3rem;
                     }
                     a {
                         color: #ffffff;
                         text-align: right;
-                        font-size: 1rem;
+                        font-size: 1.2rem;
                         
                     }
                     a:hover {
@@ -573,7 +575,7 @@
                         h6 {
                             font-size: 2rem;
                             color: #ffffff;
-                            margin: 0;
+                            margin: 0 0 0.5rem 0;
                         }
                         p {
                             font-size: 1.5rem;
@@ -583,7 +585,7 @@
                     .contact {
                         display: block;
                         h6 {
-                            margin: 0;
+                            margin: 0.5rem 0;
                             color: #ffffff;
                             font-size: 2rem;
                         }
@@ -612,14 +614,14 @@
                     flex-direction: column;
                     margin: 1.5rem 0 0 0;
                     h6 {
-                        margin: 0;
+                        margin: 0 0 0.5rem 0;
                         color: #ffffff;
                         font-size: 2rem;
                     }
                     a {
                         color: #ffffff;
                         text-align: right;
-                        font-size: 1.5rem;
+                        font-size: 1.8rem;
                         
                     }
                     a:hover {

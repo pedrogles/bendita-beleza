@@ -1,6 +1,6 @@
 import '../../style/contact/contact.scss';
 import Logo from '../../assets/logo/BBFullColor.png';
-import { BsInstagram, BsWhatsapp } from 'react-icons/bs';
+import { AiOutlineMail, AiOutlineInstagram, AiOutlineWhatsApp } from 'react-icons/ai';
 
 function Contact() {
     return (
@@ -8,11 +8,14 @@ function Contact() {
             <div className='image'>
                 <img src={Logo} alt="Logo Bendita Beleza R.V Cabeleleira" />
                 <div className='icons'>
-                    <a href="https://www.instagram.com/benditabelezarv/" rel="noreferrer" target="_blank" alt="Link para Instagram">
-                        <BsInstagram />
-                    </a>
                     <a href="https://api.whatsapp.com/send?phone=5583988710551" rel="noreferrer" target="_blank" alt="Link para Whatsapp">
-                        <BsWhatsapp />
+                        <AiOutlineWhatsApp />
+                    </a>
+                    <a href="mailto:renatarvcabelos@gmail.com" rel="noreferrer" target="_blank" alt="Link para Email">
+                        <AiOutlineMail />
+                    </a>
+                    <a href="https://www.instagram.com/benditabelezarv/" rel="noreferrer" target="_blank" alt="Link para Instagram">
+                        <AiOutlineInstagram />
                     </a>
                 </div>
             </div>
@@ -44,11 +47,14 @@ function Contact() {
                     </div>
                     <div className='social'>
                         <h6>Links:</h6>
+                        <a href="mailto:renatarvcabelos@gmail.com" rel="noreferrer" target="_blank" alt="Link para Email">
+                            <AiOutlineMail />
+                        </a>
                         <a href="https://api.whatsapp.com/send?phone=5583988710551" rel="noreferrer" target="_blank" alt="Link para Whatsapp">
-                            <BsWhatsapp />
+                            <AiOutlineWhatsApp />
                         </a>
                         <a href="https://www.instagram.com/benditabelezarv/" rel="noreferrer" target="_blank" alt="Link para Instagram">
-                            <BsInstagram />
+                            <AiOutlineInstagram />
                         </a>
                     </div>
                 </div>
