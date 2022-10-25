@@ -1,0 +1,67 @@
+#beforeAfter {
+    background-image: url('../../../assets/backgrounds/Beckg2.png');
+    height: 1950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+        color: #e2e2e2;
+        font-size: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    #beforeAfter {
+        height: 2200px;
+        h3 {
+            font-size: 1.6rem;
+            margin-top: 3rem;
+            margin-bottom: 7rem;
+        }
+    }
+}
+@media (min-width: 768px) {
+    #beforeAfter {
+        height: 1400px;
+        h3 {
+            color: #eeeeee;
+            font-size: 3rem;
+            font-weight: 300;
+            margin-top: 3rem;
+        } 
+    }
+}
+@media (min-width: 1024px) {
+    #beforeAfter {
+        height: 1600px;
+        h3 {
+            color: #eeeeee;
+            font-size: 3rem;
+            font-weight: 300;
+            margin-top: 7rem;
+        } 
+    }
+}
+@media (min-width: 1440px) {
+    #beforeAfter {
+        height: 1600px;
+        h3 {
+            color: #eeeeee;
+            font-size: 3rem;
+            font-weight: 300;
+            margin-top: 7rem;
+        } 
+    }
+}
+@media (min-width: 1920px) {
+    #beforeAfter {
+        height: 2100px;
+        h3 {
+            color: #eeeeee;
+            font-size: 3rem;
+            font-weight: 300;
+            margin-top: 10rem;
+        } 
+    }
+}

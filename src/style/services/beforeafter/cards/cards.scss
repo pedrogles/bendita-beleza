@@ -1,0 +1,514 @@
+#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .image1 {
+            margin-top: 1rem;
+            height: 19rem;
+            width: 14rem;
+            border-radius: 20px 20px 0 0;
+            -webkit-box-shadow: 0px -9px 30px 0px #f5b4b4;
+            -moz-box-shadow:    0px -9px 30px 0px #f5b4b4;
+            box-shadow:         0px -9px 30px 0px #f5b4b4;
+        }
+        .buttons1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #00000077;
+            border-radius: 0 0 10px 10px;
+            width: 14rem;
+            height: 6rem;
+            button {
+                height: 2rem;
+                width: 13rem;
+                margin: 0.3rem;
+                padding: 0.1rem;
+                border: solid 0.1rem #ffffff;
+                background-color: transparent;
+                color: #ffffff;
+                font-size: 0.8rem;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .image2 {
+            margin-top: 3rem;
+            height: 19rem;
+            width: 14rem;
+            border-radius: 20px 20px 0 0;
+            -webkit-box-shadow: 0px -9px 30px 0px #f5b4b4;
+            -moz-box-shadow:    0px -9px 30px 0px #f5b4b4;
+            box-shadow:         0px -9px 30px 0px #f5b4b4;
+        }
+        .buttons2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #00000077;
+            border-radius: 0 0 10px 10px;
+            width: 14rem;
+            height: 6rem;
+            button {
+                height: 2rem;
+                width: 13rem;
+                margin: 0.3rem;
+                padding: 0.1rem;
+                border: solid 0.1rem #ffffff;
+                background-color: transparent;
+                color: #ffffff;
+                font-size: 0.8rem;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+    .card3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .image3 {
+            margin-top: 1rem;
+            height: 19rem;
+            width: 14rem;
+            border-radius: 20px 20px 0 0;
+            -webkit-box-shadow: 0px -9px 30px 0px #f5b4b4;
+            -moz-box-shadow:    0px -9px 30px 0px #f5b4b4;
+            box-shadow:         0px -9px 30px 0px #f5b4b4;
+        }
+        .buttons3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #00000077;
+            border-radius: 0 0 10px 10px;
+            width: 14rem;
+            height: 6rem;
+            button {
+                height: 2rem;
+                width: 13rem;
+                margin: 0.3rem;
+                padding: 0.1rem;
+                border: solid 0.1rem #ffffff;
+                background-color: transparent;
+                color: #ffffff;
+                font-size: 0.8rem;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+    .card4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .image4 {
+            margin-top: 3rem;
+            height: 19rem;
+            width: 14rem;
+            border-radius: 20px 20px 0 0;
+            -webkit-box-shadow: 0px -9px 30px 0px #f5b4b4;
+            -moz-box-shadow:    0px -9px 30px 0px #f5b4b4;
+            box-shadow:         0px -9px 30px 0px #f5b4b4;
+        }
+        .buttons4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #00000077;
+            border-radius: 0 0 10px 10px;
+            width: 14rem;
+            height: 6rem;
+            button {
+                height: 2rem;
+                width: 13rem;
+                margin: 0.3rem;
+                padding: 0.1rem;
+                border: solid 0.1rem #ffffff;
+                background-color: transparent;
+                color: #ffffff;
+                font-size: 0.8rem;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    #cards {
+        .card1 {
+            .image1 {
+                margin-top: 1rem;
+                height: 23rem;
+                width: 18rem;
+            }
+            .buttons1 {
+                width: 18rem;
+                height: 6rem;
+                button {
+                    height: 2rem;
+                    width: 17rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card2 {
+            .image2 {
+                margin-top: 1rem;
+                height: 23rem;
+                width: 18rem;
+            }
+            .buttons2 {
+                width: 18rem;
+                height: 6rem;
+                button {
+                    height: 2rem;
+                    width: 17rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card3 {
+            .image3 {
+                margin-top: 1rem;
+                height: 23rem;
+                width: 18rem;
+            }
+            .buttons3 {
+                width: 18rem;
+                height: 6rem;
+                button {
+                    height: 2rem;
+                    width: 17rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card4 {
+            .image4 {
+                margin-top: 1rem;
+                height: 23rem;
+                width: 18rem;
+            }
+            .buttons4 {
+                width: 18rem;
+                height: 6rem;
+                button {
+                    height: 2rem;
+                    width: 17rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    #cards {
+        display: grid;
+        grid-template-areas: "card1 card2" "card3 card4";
+        .card1 {
+            grid-area: card1;
+            margin: 0 2rem;
+            .image1 {
+                margin-top: 3rem;
+                height: 26rem;
+                width: 20rem;
+            }
+            .buttons1 {
+                width: 20rem;
+                height: 6rem;
+                button {
+                    height: 2rem;
+                    width: 19rem;
+                    margin: 0.3rem;
+                    padding: 0.1rem;
+                    border: solid 0.1rem #ffffff;
+                    background-color: transparent;
+                    color: #ffffff;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card2 {
+            grid-area: card2;
+            margin: 0 2rem;
+            .image2 {
+                margin-top: 3rem;
+                height: 26rem;
+                width: 20rem;
+            }
+            .buttons2 {
+                width: 20rem;
+                height: 6rem;
+                button {
+                    height: 2rem;
+                    width: 19rem;
+                    margin: 0.3rem;
+                    padding: 0.1rem;
+                    border: solid 0.1rem #ffffff;
+                    background-color: transparent;
+                    color: #ffffff;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card3 {
+            grid-area: card3;
+            margin: 0 2rem;
+            .image3 {
+                margin-top: 3rem;
+                height: 26rem;
+                width: 20rem;
+            }
+            .buttons3 {
+                width: 20rem;
+                height: 6rem;
+                button {
+                    height: 2rem;
+                    width: 19rem;
+                    margin: 0.3rem;
+                    padding: 0.1rem;
+                    border: solid 0.1rem #ffffff;
+                    background-color: transparent;
+                    color: #ffffff;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card4 {
+            grid-area: card4;
+            margin: 0 2rem;
+            .image4 {
+                margin-top: 3rem;
+                height: 26rem;
+                width: 20rem;
+            }
+            .buttons4 {
+                width: 20rem;
+                height: 6rem;
+                button {
+                    height: 2rem;
+                    width: 19rem;
+                    margin: 0.3rem;
+                    padding: 0.1rem;
+                    border: solid 0.1rem #ffffff;
+                    background-color: transparent;
+                    color: #ffffff;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1024px) {
+    #cards {
+        .card1 {
+            .image1 {
+               height: 28rem;
+               width: 22rem;
+            }
+            .buttons1 {
+                height: 6rem;
+                width: 22rem;
+                button {
+                    height: 2rem;
+                    width: 21rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card2 {
+            .image2 {
+               height: 28rem;
+               width: 22rem;
+            }
+            .buttons2 {
+                height: 6rem;
+                width: 22rem;
+                button {
+                    height: 2rem;
+                    width: 21rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card3 {
+            .image3 {
+               height: 28rem;
+               width: 22rem;
+            }
+            .buttons3 {
+                height: 6rem;
+                width: 22rem;
+                button {
+                    height: 2rem;
+                    width: 21rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card4 {
+            .image4 {
+               height: 28rem;
+               width: 22rem;
+            }
+            .buttons4 {
+                height: 6rem;
+                width: 22rem;
+                button {
+                    height: 2rem;
+                    width: 21rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1440px) {
+    #cards {
+        .card1 {
+            .image1 {
+               height: 30rem;
+               width: 23rem;
+            }
+            .buttons1 {
+                height: 6rem;
+                width: 23rem;
+                button {
+                    height: 2rem;
+                    width: 22rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card2 {
+            .image2 {
+               height: 30rem;
+               width: 23rem;
+            }
+            .buttons2 {
+                height: 6rem;
+                width: 23rem;
+                button {
+                    height: 2rem;
+                    width: 22rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card3 {
+            .image3 {
+               height: 30rem;
+               width: 23rem;
+            }
+            .buttons3 {
+                height: 6rem;
+                width: 23rem;
+                button {
+                    height: 2rem;
+                    width: 22rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .card4 {
+            .image4 {
+               height: 30rem;
+               width: 23rem;
+            }
+            .buttons4 {
+                height: 6rem;
+                width: 23rem;
+                button {
+                    height: 2rem;
+                    width: 22rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1920px) {
+    #cards {
+        .card1 {
+            .image1 {
+               height: 40rem;
+               width: 30rem;
+            }
+            .buttons1 {
+                height: 7rem;
+                width: 30rem;
+                button {
+                    height: 2.5rem;
+                    width: 29rem;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .card2 {
+            .image2 {
+               height: 40rem;
+               width: 30rem;
+            }
+            .buttons2 {
+                height: 7rem;
+                width: 30rem;
+                button {
+                    height: 2.5rem;
+                    width: 29rem;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .card3 {
+            .image3 {
+               height: 40rem;
+               width: 30rem;
+            }
+            .buttons3 {
+                height: 7rem;
+                width: 30rem;
+                button {
+                    height: 2.5rem;
+                    width: 29rem;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .card4 {
+            .image4 {
+               height: 40rem;
+               width: 30rem;
+            }
+            .buttons4 {
+                height: 7rem;
+                width: 30rem;
+                button {
+                    height: 2.5rem;
+                    width: 29rem;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

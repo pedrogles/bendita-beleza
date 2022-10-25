@@ -1,0 +1,229 @@
+#localization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../assets/backgrounds/Backg1.png');
+    height: 750px;
+    h3 {
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        .iframeContainer {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 4rem;
+            .iframe {
+                height: 350px;
+                width: 100%;
+                border-radius: 10px;
+                z-index: 0;
+            }
+        }
+        .localizationData {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 0 2rem 0;
+            p {
+                margin: 1.5rem 1rem 0 1rem;
+                font-size: 0.9rem;
+                font-weight: 300;
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    #localization {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('../../assets/backgrounds/Backg1.png');
+        height: 850px;
+        h3 {
+            color: #000000;
+            font-size: 1.6rem;
+            margin-top: 3rem;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            .iframeContainer {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 7rem;
+                .iframe {
+                    height: 350px;
+                    width: 100%;
+                    border-radius: 10px;
+                    z-index: 0;
+                }
+            }
+            .localizationData {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 0 0 2rem 0;
+                p {
+                    margin: 1.5rem 1rem 0 1rem;
+                    font-size: 1.2rem;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    #localization {
+        flex-direction: column;
+        height: 1100px;
+        h3 {
+            color: #000000;
+            font-size: 3rem;
+            font-weight: 300;
+            margin-top: 3rem;
+            margin-bottom: 7rem;
+        } 
+        .container {
+            .iframeContainer {
+                width: 700px;
+                margin: 2rem 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .iframe {
+                    height: 500px;
+                    width: 600px;
+                    border-radius: 10px;
+                    z-index: 0;
+                }
+            }
+            .localizationData {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 0 0 2rem 0;
+                p {
+                    margin: 0.5rem 1rem;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1024px) {
+    #localization {
+        flex-direction: column;
+        height: 850px;
+        h3 {
+            margin-top: 7rem;
+            margin-bottom: 5rem;
+        }
+        .container {
+            flex-direction: row;
+            .iframeContainer {
+                margin-top: 0;
+                .iframe {
+                    height: 450px;
+                    width: 450px;
+                }
+            }
+            .localizationData {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 0 0 2rem 0;
+                p {
+                    margin: 1.5rem 1rem 0 1rem;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1440px) {
+    #localization {
+        flex-direction: column;
+        height: 1000px;
+        h3 {
+            margin-top: 7rem;
+            margin-bottom: 7rem;
+        }
+        .container {
+            flex-direction: row;
+            .iframeContainer {
+                margin-top: 0;
+                .iframe {
+                    height: 550px;
+                    width: 550px;
+                }
+            }
+            .localizationData {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 0 0 2rem 0;
+                p {
+                    margin: 1.5rem 1rem 0 1rem;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1920px) {
+    #localization {
+        flex-direction: column;
+        height: 1440px;
+        h3 {
+            margin-top: 10rem;
+            margin-bottom: 10rem;
+        }
+        .container {
+            flex-direction: row;
+            margin: 0;
+            padding: 0;
+            .iframeContainer {
+                margin: 0 5rem 0 0;
+                .iframe {
+                    height: 750px;
+                    width: 900px;
+                }
+            }
+            .localizationData {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 0 0 0 5rem;
+                p {
+                    width: 732px;
+                    margin: 1.5rem 1rem 0 1rem;
+                    font-size: 2.5rem;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
