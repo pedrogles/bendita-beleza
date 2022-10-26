@@ -43,14 +43,16 @@
             h4 {
                 color: #1f1f1f;
                 font-size: 0.8rem;
+                font-weight: 300;
                 text-align: center;
                 width: 14rem;
             }
             p {
                 color: #1f1f1f;
                 font-size: 0.8rem;
-                text-decoration: underline;
-                margin-bottom: 0.5rem;
+                font-weight: 300;
+                text-decoration: none;
+                margin: 0.5rem 0;
             }
             .icon {
                 color: #1f1f1f;
@@ -155,12 +157,14 @@
                 h4 {
                     color: #1f1f1f;
                     font-size: 1.5rem;
+                    font-weight: 300;
                     width: 30rem;
                     text-align: center;
                 }
                 p {
                     color: #1f1f1f;
                     font-size: 1.2rem;
+                    font-weight: 300;
                     text-decoration: none;
                 }
                 .icon {
@@ -190,17 +194,19 @@
             h4 {
                 color: #1f1f1f;
                 font-size: 1rem;
+                font-weight: 300;
                 width: 22rem;
                 text-align: center;
                 margin-top: 1rem;
             }
             p {
                 font-size: 0.8rem;
+                margin: 0.5rem 0;
+                font-weight: 300;
             }
             .icon {
                 font-size: 1rem;
                 margin: 0;
-
             }
         }
     }
@@ -221,12 +227,14 @@
             h4 {
                 color: #1f1f1f;
                 font-size: 1.5rem;
+                font-weight: 300;
                 width: 32rem;
                 text-align: center;
                 margin-top: 1rem;
             }
             p {
                 font-size: 1.2rem;
+                font-weight: 300;
             }
             .icon {
                 font-size: 1.2rem;
@@ -243,21 +251,24 @@
             margin: 10rem 0;
         }
         .carousel .inner-carousel .item {
-            min-height: 32rem;
-            min-width: 32rem;
+            min-height: 30rem;
+            min-width: 30rem;
             padding: 20px;
             margin-top: 0;
         }
         .instagram a {
             h4 {
                 color: #1f1f1f;
-                font-size: 2rem;
+                font-size: 1.8rem;
                 width: 35rem;
                 text-align: center;
                 margin-top: 1rem;
+                font-weight: 300;
             }
             p {
-                font-size: 1.8rem;
+                margin: 0.5rem 0;
+                font-size: 1.5rem;
+                font-weight: 300;
             }
             .icon {
                 font-size: 1.8rem;

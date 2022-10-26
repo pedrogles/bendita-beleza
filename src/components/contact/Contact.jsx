@@ -23,7 +23,7 @@ function Contact() {
                 <div className='text'>
                     <h5>Prezando sempre por<br></br> <span>Sua melhor experiência!</span></h5>
                 </div>
-                <p>Para agendar seu horário ou tirar dúvidas.</p>
+                <p>Para agendar seu horário ou tirar dúvidas</p>
                 <button>
                     <a href="https://api.whatsapp.com/send?phone=5583988710551" rel="noreferrer" target="_blank" alt="Link para Whatsapp">Clique aqui.</a>
                 </button>

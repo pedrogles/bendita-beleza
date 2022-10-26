@@ -67,9 +67,11 @@
             h6 {
                 color: #ffffff;
                 font-size: 0.7rem;
+                font-weight: 300;
                 a {
                     color: #ffffff;
                     font-size: 0.7rem;
+                    font-weight: 300;
                 }
             }
             p {
@@ -419,12 +421,13 @@
                 border: solid 0.1rem #ffffff;
                 background-color: #ffffff00;
                 border-radius: 20px;
-                width: 8rem;
-                height: 2.5rem;
+                width: 7rem;
+                height: 2.2rem;
+                margin-top: 0.5rem;
                 a {
                     color: #ffffff;
                     text-decoration: none;
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     padding: 0.5rem 1rem;
                 }
             }
@@ -441,12 +444,13 @@
                     margin: 1.5rem 0 0 0;
                     .hours {
                         h6 {
-                            font-size: 1.3rem;
+                            font-size: 1rem;
                             color: #ffffff;
                             margin: 0 0 0.5rem 0;
                         }
                         p {
-                            font-size: 1rem;
+                            font-size: 0.8rem;
+                            font-weight: 300;
                             color: #ffffff;
                         }
                     }
@@ -455,10 +459,11 @@
                         h6 {
                             margin: 0.5rem 0;
                             color: #ffffff;
-                            font-size: 1.3rem;
+                            font-size: 1rem;
                         }
                         a {
-                            font-size: 1rem;
+                            font-size: 0.8rem;
+                            font-weight: 300;
                             color: #ffffff;
                         }
                     }
@@ -469,11 +474,12 @@
                     h6 {
                         margin: 0;
                         color: #ffffff;
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                     }
                     p {
                         color: #ffffff;
-                        font-size: 1rem;
+                        font-size: 0.8rem;
+                        font-weight: 300;
                         margin: 0.5rem 0;
                     }
                 }
@@ -484,12 +490,12 @@
                     h6 {
                         margin: 0 0 0.5rem 0;
                         color: #ffffff;
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                     }
                     a {
                         color: #ffffff;
                         text-align: right;
-                        font-size: 1.2rem;
+                        font-size: 0.8rem;
                         
                     }
                     a:hover {
@@ -507,10 +513,12 @@
                 }
                 h6 {
                     color: #ffffff;
-                    font-size: 0.8rem;
+                    font-size: 0.7rem;
+                    font-weight: 300;
                     a {
                         color: #ffffff;
-                        font-size: 0.8rem;
+                        font-size: 0.7rem;
+                        font-weight: 300;
                     }
                 }
             }
@@ -522,7 +530,7 @@
         .image {
             img {
                 width: 750px;
-                margin-bottom: 12rem;
+                margin-bottom: 5rem;
             }
         }
         .whatsapp {
@@ -573,12 +581,13 @@
                     margin: 1.5rem 0 0 0;
                     .hours {
                         h6 {
-                            font-size: 2rem;
+                            font-size: 1.5rem;
                             color: #ffffff;
                             margin: 0 0 0.5rem 0;
                         }
                         p {
-                            font-size: 1.5rem;
+                            font-size: 1.2rem;
+                            font-weight: 300;
                             color: #ffffff;
                         }
                     }
@@ -587,10 +596,11 @@
                         h6 {
                             margin: 0.5rem 0;
                             color: #ffffff;
-                            font-size: 2rem;
+                            font-size: 1.5rem;
                         }
                         a {
-                            font-size: 1.5rem;
+                            font-size: 1.2rem;
+                            font-weight: 300;
                             color: #ffffff;
                         }
                     }
@@ -601,11 +611,12 @@
                     h6 {
                         margin: 0;
                         color: #ffffff;
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                     }
                     p {
                         color: #ffffff;
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
+                        font-weight: 300;
                         margin: 0.5rem 0;
                     }
                 }
@@ -616,12 +627,12 @@
                     h6 {
                         margin: 0 0 0.5rem 0;
                         color: #ffffff;
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                     }
                     a {
                         color: #ffffff;
                         text-align: right;
-                        font-size: 1.8rem;
+                        font-size: 1.5rem;
                         
                     }
                     a:hover {
@@ -635,14 +646,15 @@
                 flex-direction: column;
                 align-items: center;
                 p {
-                    font-size: 1.5rem;
+                    font-size: 1rem;
                 }
                 h6 {
                     color: #ffffff;
-                    font-size: 1.4rem;
+                    font-size: 1rem;
+                    font-weight: 300;
                     a {
                         color: #ffffff;
-                        font-size: 1.4rem;
+                        font-size: 1rem;
                     }
                 }
             }

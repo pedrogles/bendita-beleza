@@ -16,12 +16,20 @@
         }
     }
 }
-@media (min-width: 2560px) {
+@media (min-width: 1024px) {
+    #banner{
+        height: 100px;
+        img {
+            width: 300px;
+        }
+    }
+}
+@media (min-width: 1920px) {
     #banner{
         height: 100px;
         img {
             margin-top: 4rem;
-            width: 700px;
+            width: 600px;
         }
     }
 }
