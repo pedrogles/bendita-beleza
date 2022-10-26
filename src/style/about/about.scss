@@ -3,10 +3,11 @@
     flex-direction: column;
     align-items: center;
     background-image: url('../../assets/backgrounds/Beckg2.png');
-    height: 900px;
+    height: 800px;
     h3 {
         color: #eeeeee;
         font-size: 1rem;
+        font-weight: 400;
         margin-top: 2rem;
         margin-bottom: 0;
     }
@@ -187,7 +188,7 @@
             font-weight: 300;
             margin: 5rem 0 0 0;
         } 
-        p {
+        .pbutton {
             color: #ffffff;
             padding: 0.5rem;
             font-size: 1.2rem;

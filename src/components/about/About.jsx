@@ -10,7 +10,7 @@ function About() {
                 <div className='photo'>
                     <img src={RV} alt="Foto de Renata Victor." />
                     <p className='rv'>Renata Victor de Andrade</p>
-                    <p>Founder</p>
+                    <p>Criadora</p>
                 </div>
                 <div className='text'>
                     <h2>Bendita Beleza</h2>

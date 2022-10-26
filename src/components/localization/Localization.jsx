@@ -13,7 +13,7 @@ function Localization() {
                 </div>
                 <div className='localizationData'>
                     <p>Horário de funcionamento: Ter a Sáb, das 9h às 18h.</p>
-                    <p>Endereço: Rua Professor Renato Carneiro da Cunha, jaguaribe, 172.</p>
+                    <p>Endereço: Rua Professor Renato Carneiro da Cunha, Jaguaribe, 172.</p>
                     <p>Localizado ao lado do cruzamento com a Rua Primeiro de Maio.</p>
                 </div>
             </div>
