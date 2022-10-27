@@ -305,6 +305,7 @@
     .pservice  {
         margin-top: 2rem;
         font-size: 0.7rem;
+        font-weight: 300;
         text-align: center;
     }
 }
@@ -653,6 +654,9 @@
                     }
                 }
             }
+        }
+        .pservice  {
+            font-size: 1.5rem;
         }
     }
 }
