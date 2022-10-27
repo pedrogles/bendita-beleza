@@ -25,7 +25,7 @@ function Contact() {
                 </div>
                 <p>Para agendar seu horário ou tirar dúvidas</p>
                 <button>
-                    <a href="https://api.whatsapp.com/send?phone=5583988710551" rel="noreferrer" target="_blank" alt="Link para Whatsapp">Clique aqui.</a>
+                    <a href="https://api.whatsapp.com/send?phone=5583988710551&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Desejo%20agendar%20um%20hor%C3%A1rio%20para%20o%20servi%C3%A7o..." rel="noreferrer" target="_blank" alt="Link para Whatsapp">Clique aqui.</a>
                 </button>
             </div>
             <div className='footer'>

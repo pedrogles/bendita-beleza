@@ -3,7 +3,7 @@ import images from '../../../../beforeAfter';
 import * as functions from '../../../../beforeAfter';
 
 
-function Cards() {
+function Card() {
     return (
         <div id='cards'>
             <div className='card1'>
@@ -54,4 +54,4 @@ function Cards() {
     )
 }
 
-export default Cards;
+export default Card;
