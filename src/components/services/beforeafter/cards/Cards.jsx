@@ -1,5 +1,5 @@
 import '../../../../style/services/beforeafter/cards/cards.scss';
-import images from '../../../../beforeAfter';
+import { images } from '../../../../beforeAfter';
 import * as functions from '../../../../beforeAfter';
 
 
