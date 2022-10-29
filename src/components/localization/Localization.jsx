@@ -2,7 +2,7 @@ import '../../style/localization/localization.scss';
 
 function Localization() {
     return (
-        <div id='localization'>
+        <section id='localization'>
             <h3>Localização</h3>
             <div className='container'>
                 <div className='iframeContainer'>
@@ -17,7 +17,7 @@ function Localization() {
                     <p>Localizado ao lado do cruzamento com a Rua Primeiro de Maio.</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

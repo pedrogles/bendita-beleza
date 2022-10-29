@@ -3,7 +3,7 @@ import { services } from '../../servicesData';
 
 function Services() {
     return (
-        <div id="services">
+        <section id="services">
             <h3>Serviços</h3>
             <div className='items'>
                 <div className="containerCorte">
@@ -59,7 +59,7 @@ function Services() {
                 </div>
             </div>
             <p className='pservice'>Clique no serviço que deseja<br></br> e seja redirecionado(a) <br></br>para uma conversa.</p>
-        </div>
+        </section>
     )
 };
 

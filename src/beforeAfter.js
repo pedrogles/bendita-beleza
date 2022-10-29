@@ -1,11 +1,11 @@
-import cliente1 from './assets/services/beforeafter/cliente1.jpeg';
-import cliente11 from './assets/services/beforeafter/cliente1.1.jpeg';
-import cliente2 from './assets/services/beforeafter/cliente2.jpeg';
+import cliente1 from './assets/services/beforeafter/cliente1.png';
+import cliente11 from './assets/services/beforeafter/cliente1.1.png';
+import cliente2 from './assets/services/beforeafter/cliente2.png';
 import cliente22 from './assets/services/beforeafter/cliente2.1.png';
-import cliente3 from './assets/services/beforeafter/cliente3.jpg';
-import cliente33 from './assets/services/beforeafter/cliente3.1.jpg';
+import cliente3 from './assets/services/beforeafter/cliente3.png';
+import cliente33 from './assets/services/beforeafter/cliente3.1.png';
 import cliente4 from './assets/services/beforeafter/cliente4.jpg';
-import cliente44 from './assets/services/beforeafter/cliente4.1.jpg';
+import cliente44 from './assets/services/beforeafter/cliente4.1.png';
 
 const images = [cliente1, cliente11, cliente2, cliente22, cliente3, cliente33, cliente4, cliente44];
 

@@ -3,7 +3,7 @@ import RV from '../../../assets/logo/RVFullColor.png';
 
 function Navbar() {
     return (
-        <div id="navbar">
+        <header id="navbar">
             <img className="RV2" src={RV} alt="Logo Renata Victor." />
             <nav className="elements">
                 <ul>
@@ -23,7 +23,7 @@ function Navbar() {
                     <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
     )
 };
 

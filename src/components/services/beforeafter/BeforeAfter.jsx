@@ -3,10 +3,10 @@ import Cards from './cards/Cards';
 
 function BeforeAfter() {
     return (
-        <div id='beforeAfter'>
+        <section id='beforeAfter'>
             <h3>Antes e Depois</h3>
             <Cards />
-        </div>
+        </section>
     )
 }
 

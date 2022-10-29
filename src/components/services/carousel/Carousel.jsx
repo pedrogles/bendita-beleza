@@ -17,7 +17,7 @@ function Carousel() {
     }, [])
 
     return (
-        <div id="carousel">
+        <section id="carousel">
             <div className='title'>
                 <h3>Fotos</h3>
             </div>
@@ -40,7 +40,7 @@ function Carousel() {
                 </a>
             </motion.div>
             
-        </div>
+        </section>
     )
 };
 
