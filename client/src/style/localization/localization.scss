@@ -1,0 +1,200 @@
+#localization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../assets/backgrounds/Backg1.png');
+    height: 800px;
+    h3 {
+        color: #000000;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-top: 5rem;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        .iframeContainer {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            .iframe {
+                height: 350px;
+                width: 100%;
+                border-radius: 10px;
+                z-index: 0;
+            }
+        }
+        .localizationData {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 0 2rem 0;
+            p {
+                margin: 1.5rem 1rem 0 1rem;
+                font-size: 0.9rem;
+                font-weight: 300;
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #localization {
+        height: 1150px;
+        h3 {
+            font-size: 3rem;
+            margin-top: 10rem;
+            text-shadow: 1px 1px 1px #cacaca;
+            color: #000000;
+        }
+        .container {
+            width: 480px;
+            margin-top: 2rem;
+            .iframeContainer .iframe {
+                height: 350px;
+                width: 470px;
+            }
+            .localizationData {
+                p {
+                    font-size: 1.5rem;
+                    width: 480px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    #localization {
+        flex-direction: column;
+        height: 850px;
+        h3 {
+            color: #000000;
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-top: 8rem;
+            margin-bottom: 2rem;
+        } 
+        .container {
+            flex-direction: row;
+            .iframeContainer {
+                width: 550px;
+                margin: 3rem 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .iframe {
+                    height: 400px;
+                    width: 400px;
+                    border-radius: 10px;
+                    z-index: 0;
+                }
+            }
+            .localizationData {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 0;
+                p {
+                    margin: 1rem;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #localization {
+        flex-direction: column;
+        height: 850px;
+        h3 {
+            color: #000000;
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-top: 8rem;
+            margin-bottom: 2rem;
+        } 
+        .container {
+            flex-direction: row;
+            .iframeContainer {
+                width: 500px;
+                margin: 3rem 0 0 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .iframe {
+                    height: 450px;
+                    width: 450px;
+                    border-radius: 10px;
+                    z-index: 0;
+                }
+            }
+            .localizationData {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 0;
+                width: 500px;
+                p {
+                    margin: 1rem;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1441px) {
+    #localization {
+        flex-direction: column;
+        height: 1550px;
+        h3 {
+            color: #000000;
+            font-size: 2rem;
+            font-weight: 300;
+            margin-top: 15rem;
+            margin-bottom: 5rem;
+        } 
+        .container {
+            flex-direction: row;
+            .iframeContainer {
+                width: 800px;
+                margin: 3rem 0 0 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .iframe {
+                    height: 750px;
+                    width: 750px;
+                    border-radius: 10px;
+                    z-index: 0;
+                }
+            }
+            .localizationData {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 0;
+                width: auto;
+                p {
+                    margin: 1rem;
+                    font-size: 2rem;
+                    font-weight: 300;
+                    max-width: 650px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+#navbarfooter {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    .navbarfooter-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        height: 60px;
+        background-image: url("../../assets/backgrounds/navbar/BackNavbar.png");
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 1.2rem;
+                padding: 1.2rem 2rem;
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #navbarfooter {
+        .navbarfooter-items {
+            height: 7rem;
+            li a {
+                font-size: 2rem;
+                padding: 2rem 3rem;
+            }
+        }
+    }
+}
+@media (min-width: 769px) {
+    #navbarfooter {
+        display: none;
+    }
+}
