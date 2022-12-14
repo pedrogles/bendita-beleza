@@ -1,0 +1,185 @@
+#carousel {
+    background-image: url('../../assets/backgrounds/Backg1.png');
+    height: 650px;
+    .carousel-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3 {
+            color: #000000;
+            text-shadow: 1px 1px 1px #cacaca;
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-top: 5rem;
+            margin-bottom: 1rem;
+        }
+    }
+    .carousel-container {
+        cursor: grab;
+        overflow: hidden;
+        background-image: url('../../assets/backgrounds/Backg1.png');
+        .inner-carousel {
+            display: flex;
+            .carousel-item {
+                min-height: 17rem;
+                min-width: 17rem;
+                padding: 20px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 10px;
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+    .instagram {
+        
+        a {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            h4 {
+                color: #1f1f1f;
+                font-size: 1rem;
+                font-weight: 300;
+                text-align: center;
+                max-width: 16rem;
+            }
+            p {
+                color: #1f1f1f;
+                font-size: 0.8rem;
+                font-weight: 300;
+                text-decoration: none;
+                margin: 0.5rem 0;
+            }
+            .icon {
+                color: #1f1f1f;
+                font-size: 0.6rem;
+                margin: 0rem;
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #carousel {
+        height: 1250px;
+        .carousel-title h3 {
+            font-size: 3rem;
+            margin-top: 10rem;
+            margin-bottom: 5rem;
+        }
+        .carousel-container .inner-carousel .carousel-item {
+            min-height: 25rem;
+            min-width: 25rem;
+        }
+        .instagram a {
+            h4 {
+                font-size: 1.8rem;
+                max-width: 24rem;
+                margin-top: 1rem;
+            }
+            p {
+                font-size: 1.4rem;
+                margin: 1rem;
+            }
+            .icon {
+                color: #1f1f1f;
+                font-size: 1.2rem;
+                margin: 0rem;
+            }
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    #carousel {
+        height: 950px;
+        .carousel-title h3 {
+            font-size: 1.5rem;
+            margin-top: 8rem;
+            margin-bottom: 5rem;
+        }
+        .carousel-container .inner-carousel .carousel-item {
+            min-height: 20rem;
+            min-width: 20rem;
+        }
+        .instagram a {
+            h4 {
+                font-size: 1.5rem;
+                max-width: 25rem;
+                margin-top: 1rem;
+            }
+            p {
+                font-size: 1.4rem;
+                margin: 1rem;
+            }
+            .icon {
+                color: #1f1f1f;
+                font-size: 1.2rem;
+                margin: 0rem;
+            }
+        }
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #carousel {
+        height: 1050px;
+        .carousel-title h3 {
+            font-size: 1.5rem;
+            margin-top: 8rem;
+            margin-bottom: 5rem;
+        }
+        .carousel-container .inner-carousel .carousel-item {
+            min-height: 24rem;
+            min-width: 24rem;
+        }
+        .instagram a {
+            h4 {
+                font-size: 1.5rem;
+                max-width: 24rem;
+                margin-top: 1rem;
+            }
+            p {
+                font-size: 1.4rem;
+                margin: 1rem;
+            }
+            .icon {
+                color: #1f1f1f;
+                font-size: 1.2rem;
+                margin: 0rem;
+            }
+        }
+    }
+}
+@media (min-width: 1441px) {
+    #carousel {
+        height: 1550px;
+        .carousel-title h3 {
+            font-size: 2rem;
+            margin-top: 15rem;
+            margin-bottom: 5rem;
+        }
+        .carousel-container .inner-carousel .carousel-item {
+            min-height: 32rem;
+            min-width: 32rem;
+        }
+        .instagram a {
+            h4 {
+                font-size: 2rem;
+                max-width: 38rem;
+                margin-top: 1rem;
+            }
+            p {
+                font-size: 1.9rem;
+                margin: 1rem;
+            }
+            .icon {
+                color: #1f1f1f;
+                font-size: 1.6rem;
+                margin: 0rem;
+            }
+        }
+    }
+}

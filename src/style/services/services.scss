@@ -1,0 +1,970 @@
+#services {
+    background-image: url('../../assets/backgrounds/Backg1.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 950px;
+    width: 100%;
+    h3 {
+        color: #000000;
+        text-shadow: 1px 1px 1px #cacaca;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .services-items {
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        width: 250px;
+        grid-template-areas: "corte corte"
+                            "escova coloracao"
+                            "unhas selagem"
+                            "mechas botox"
+                            "tratamentos tratamentos";
+        .item-corte {
+            grid-area: corte;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 0.5rem 0;
+            .corte {
+                background-image: url("../../assets/backgrounds/Beckg2.png");
+                border-radius: 20px;
+                height: 80px;
+                width: 90px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin: 0.5rem;
+                }
+                p {
+                    color: #ffffff;
+                    font-size: 0.8rem;
+                    font-weight: 300;
+                    margin: 0;
+                }
+            }
+        }
+        .item-escova {
+            grid-area: escova;
+            background-image: url("../../assets/backgrounds/Beckg2.png");
+            border-radius: 20px;
+            height: 80px;
+            width: 90px;
+            margin: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            img {
+                width: 30px;
+                height: 30px;
+                margin: 0.5rem;
+            }
+            p {
+                margin: 0;
+                color: #ffffff;
+                font-size: 0.8rem;
+                font-weight: 300;
+            }
+            
+        }
+        .item-coloracao {
+            grid-area: coloracao;
+            background-image: url("../../assets/backgrounds/Beckg2.png");
+            border-radius: 20px;
+            height: 80px;
+            width: 90px;
+            margin: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            img {
+                width: 30px;
+                height: 30px;
+                margin: 0.5rem;
+            }
+            p {
+                margin: 0;
+                color: #ffffff;
+                font-size: 0.8rem;
+                font-weight: 300;
+            }
+        }
+        .item-unhas {
+            grid-area: unhas;
+            background-image: url("../../assets/backgrounds/Beckg2.png");
+            border-radius: 20px;
+            height: 80px;
+            width: 90px;
+            margin: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            img {
+                width: 30px;
+                height: 30px;
+                margin: 0.5rem;
+            }
+            p {
+                margin: 0;
+                color: #ffffff;
+                font-size: 0.8rem;
+                font-weight: 300;
+            }
+        }
+        .item-selagem {
+            grid-area: selagem;
+            background-image: url("../../assets/backgrounds/Beckg2.png");
+            border-radius: 20px;
+            height: 80px;
+            width: 90px;
+            margin: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            img {
+                width: 30px;
+                height: 30px;
+                margin: 0.5rem;
+            }
+            p {
+                margin: 0;
+                color: #ffffff;
+                font-size: 0.8rem;
+                font-weight: 300;
+            }
+        }
+        .item-mechas {
+            grid-area: mechas;
+            background-image: url("../../assets/backgrounds/Beckg2.png");
+            border-radius: 20px;
+            height: 80px;
+            width: 90px;
+            margin: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            img {
+                width: 45px;
+                height: 30px;
+                margin: 0.5rem;
+                color: aqua;
+            }
+            p {
+                margin: 0;
+                color: #ffffff;
+                font-size: 0.8rem;
+                font-weight: 300;
+            }
+        }
+        .item-botox {
+            grid-area: botox;
+            background-image: url("../../assets/backgrounds/Beckg2.png");
+            border-radius: 20px;
+            height: 80px;
+            width: 90px;
+            margin: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            img {
+                width: 30px;
+                height: 30px;
+                margin: 0.5rem;
+            }
+            p {
+                margin: 0;
+                font-size: 0.74rem;
+                color: #ffffff;
+                font-weight: 300;
+            }
+        }
+        .item-tratamentos {
+            grid-area: tratamentos;
+            display: grid;
+            justify-items: center;
+            margin: 0.5rem 0;
+            background-image: url("../../assets/backgrounds/Beckg2.png");
+            border-radius: 20px;
+            height: 240px;
+            width: 220px;
+            grid-template-areas: "title title"
+                            "nutricao cauterizacao"
+                            "hidratacao reconstrucao";
+            .tratamentos-title {
+                grid-area: title;
+                text-align: center;
+                height: 60px;
+                h3 {
+                    color: #ffffff;
+                    font-size: 1.2rem;
+                    font-weight: 300;
+                    margin-top: 1.5rem;
+                }
+            }
+            .item-nutricao {
+                grid-area: nutricao;
+                height: 80px;
+                width: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin: 0.2rem;
+                }
+                p {
+                    color: #ffffff;
+                    font-size: 0.8rem;
+                    font-weight: 300;
+                }
+            }
+            .item-cauterizacao {
+                grid-area: cauterizacao;
+                height: 80px;
+                width: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin: 0.2rem;
+                }
+                p {
+                    color: #ffffff;
+                    font-size: 0.8rem;
+                    font-weight: 300;
+                }
+            }
+            .item-hidratacao {
+                grid-area: hidratacao;
+                height: 80px;
+                width: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin: 0.2rem;
+                }
+                p {
+                    color: #ffffff;
+                    font-size: 0.8rem;
+                    font-weight: 300;
+                }
+            }
+            .item-reconstrucao {
+                grid-area: reconstrucao;
+                height: 80px;
+                width: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin: 0.2rem;
+                }
+                p {
+                    color: #ffffff;
+                    font-size: 0.8rem;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+    .services-direction  {
+        margin-top: 2rem;
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #services {
+        height: 1650px;
+        h3 {
+            font-size: 3rem;
+            margin-top: 10rem;
+            margin-bottom: 5rem;
+        }
+        .services-items {
+            width: 420px;
+            .item-corte {
+                margin: 0.5rem 0;
+                .corte {
+                    height: 150px;
+                    width: 190px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                    p {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .item-escova {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+                
+            }
+            .item-coloracao {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-unhas {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-selagem {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-mechas {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 75px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-botox {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.4rem;
+                }
+            }
+            .item-tratamentos {
+                height: 440px;
+                width: 400px;
+                .tratamentos-title {
+                    height: auto;
+                    h3 {
+                        font-size: 2rem;
+                        font-weight: 300;
+                        margin: 2rem 0 1rem 0;
+                    }
+                }
+                .item-nutricao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-cauterizacao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-hidratacao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-reconstrucao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+        .services-direction  {
+            margin-top: 2rem;
+            font-size: 1.5rem;
+            font-weight: 300;
+            text-align: center;
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    #services {
+        height: 1650px;
+        h3 {
+            font-size: 1.5rem;
+            margin: 8rem 0;
+        }
+        .services-items {
+            width: 420px;
+            .item-corte {
+                margin: 0.5rem 0;
+                .corte {
+                    height: 150px;
+                    width: 190px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                    p {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .item-escova {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+                
+            }
+            .item-coloracao {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-unhas {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-selagem {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-mechas {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 75px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-botox {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.4rem;
+                }
+            }
+            .item-tratamentos {
+                height: 440px;
+                width: 400px;
+                .tratamentos-title {
+                    height: auto;
+                    h3 {
+                        font-size: 2rem;
+                        font-weight: 300;
+                        margin: 2rem 0 1rem 0;
+                        text-shadow: none;
+                    }
+                }
+                .item-nutricao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-cauterizacao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-hidratacao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-reconstrucao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+        .services-direction  {
+            margin-top: 2rem;
+            font-size: 1.5rem;
+            font-weight: 300;
+            text-align: center;
+        }
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #services {
+        height: 1650px;
+        h3 {
+            font-size: 1.5rem;
+            margin: 8rem 0;
+        }
+        .services-items {
+            width: 420px;
+            .item-corte {
+                margin: 0.5rem 0;
+                .corte {
+                    height: 150px;
+                    width: 190px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                    p {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .item-escova {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+                
+            }
+            .item-coloracao {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-unhas {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-selagem {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-mechas {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 75px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-botox {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.4rem;
+                }
+            }
+            .item-tratamentos {
+                height: 440px;
+                width: 400px;
+                .tratamentos-title {
+                    height: auto;
+                    h3 {
+                        font-size: 2rem;
+                        font-weight: 300;
+                        margin: 2rem 0 1rem 0;
+                    }
+                }
+                .item-nutricao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-cauterizacao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-hidratacao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-reconstrucao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+        .services-direction  {
+            margin-top: 2rem;
+            font-size: 1.5rem;
+            font-weight: 300;
+            text-align: center;
+        }
+    }
+}
+@media (min-width: 1441px) {
+    #services {
+        height: 1850px;
+        h3 {
+            font-size: 2rem;
+            margin: 15rem 0 5rem 0;
+        }
+        .services-items {
+            width: 420px;
+            .item-corte {
+                margin: 0.5rem 0;
+                .corte {
+                    height: 150px;
+                    width: 190px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                    p {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .item-escova {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+                
+            }
+            .item-coloracao {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-unhas {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-selagem {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-mechas {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 75px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .item-botox {
+                height: 150px;
+                width: 190px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0.5rem;
+                }
+                p {
+                    font-size: 1.4rem;
+                }
+            }
+            .item-tratamentos {
+                height: 440px;
+                width: 400px;
+                .tratamentos-title {
+                    height: auto;
+                    h3 {
+                        font-size: 2rem;
+                        font-weight: 300;
+                        margin: 2rem 0 1rem 0;
+                    }
+                }
+                .item-nutricao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-cauterizacao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-hidratacao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+                .item-reconstrucao {
+                    height: 140px;
+                    width: 150px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 0.5rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+        .services-direction  {
+            margin-top: 2rem;
+            font-size: 2rem;
+            font-weight: 300;
+            text-align: center;
+        }
+    }
+}

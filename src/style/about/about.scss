@@ -1,0 +1,438 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../assets/backgrounds/Beckg2.png');
+    height: 850px;
+    h3 {
+        color: #eeeeee;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-top: 5rem;
+        margin-bottom: 0;
+        text-shadow: 1px 1px 2px #000000;
+    }
+    .about-elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .elements-photo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 100px;
+                border: solid 0.1rem #ffffff;
+                border-radius: 50%;
+                margin-top: 5rem;
+            }
+            .rv-name {
+                margin: 1rem 0 0 0;
+                font-size: 0.9rem;
+                text-shadow: 1px 1px 2px #000000;
+            }
+            p {
+                color: #ffffff;
+                margin-bottom: 2rem;
+                font-size: 0.8rem;
+                font-weight: lighter;
+                text-shadow: 1px 1px 2px #000000;
+            }
+        }
+        .elements-text {
+            h2 {
+                display: none;
+            }
+            p {
+                color: #ffffff;
+                text-align: center;
+                font-weight: 300;
+                font-size: 1rem;
+                padding: 0 1rem;
+                margin-bottom: 1rem;
+                text-shadow: 1px 1px 2px #000000;
+            }
+        }
+    }
+    .scheduling-p {
+        color: #ffffff;
+        padding: 0.2rem;
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin: 2rem 0 0.5rem 0;
+        text-shadow: 1px 1px 2px #000000;
+    }
+    .scheduling-button {
+        background-color: transparent;
+        border-radius: 20px;
+        border: solid 0.1rem #ffffff;
+        box-shadow: 1px 1px 1px #000000;
+        height: 1.8rem;
+        width: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        a {
+            color: #ffffff;
+            font-size: 0.6rem;
+            text-decoration: none;
+            text-shadow: 1px 1px 2px #000000;
+        }
+    }
+    .scheduling-button:hover {
+        background-color: #ffffff;
+        a {
+            color: #000000;
+            text-shadow: none;
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #about {
+        height: 1800px;
+        background-repeat: round;
+        h3 {
+            font-size: 3rem;
+            margin-top: 10rem;
+        }
+        .about-elements {
+            .elements-photo {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 200px;
+                    border: solid 0.2rem #ffffff;
+                    border-radius: 50%;
+                    margin-top: 10rem;
+                }
+                .rv-name {
+                    padding: 1rem;
+                    font-size: 1.8rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+            .elements-text {
+                h2 {
+                    display: none;
+                }
+                p {
+                    font-weight: 300;
+                    font-size: 2rem;
+                    margin: 1rem 1.5rem;
+                }
+            }
+        }
+        .scheduling-p {
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem 0;
+        }
+        .scheduling-button {
+            border-radius: 30px;
+            height: 3.5rem;
+            width: 10rem;
+            a {
+                font-size: 1.5rem;
+                font-weight: 300;
+            }
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    #about {
+        height: 850px;
+        h3 {
+            color: #eeeeee;
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-top: 8rem;
+            margin-bottom: 0;
+        }
+        .about-elements {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-top: 4rem;
+            width: 100%;
+            .elements-photo {
+                display: flex;
+                flex-direction: column;
+                justify-content: initial;
+                align-items: center;
+                max-width: 350px;
+                height: 300px;
+                img {
+                    width: 160px;
+                    border: none;
+                    border-radius: 30px;
+                    margin: 0 0 0 0;
+                }
+                .rv-name {
+                    padding: 1rem 0 0.5rem 0;
+                    margin: 0;
+                    font-size: 1rem;
+                }
+                p {
+                    color: #ffffff;
+                    margin-bottom: 0;
+                    font-size: 1rem;
+                    font-weight: lighter;
+                }
+            }
+            .elements-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 500px;
+                h2 {
+                    display: block;
+                    padding: 1rem 0;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #ffffff;
+                    text-shadow: 1px 1px 1px #000000;
+                }
+                p {
+                    color: #ffffff;
+                    text-align: left;
+                    font-weight: 300;
+                    font-size: 1.2rem;
+                    width: 400px;
+                    padding: 0;
+                    margin: 1rem 0;
+                }
+            }
+        }
+        .scheduling-p {
+            color: #ffffff;
+            padding: 0.2rem;
+            font-size: 1rem;
+            font-weight: 300;
+            margin: 2rem 0 0.5rem 0;
+        }
+        .scheduling-button {
+            background-color: transparent;
+            border-radius: 20px;
+            border: solid 0.1rem #ffffff;
+            box-shadow:1px 1px #000000;
+            height: 2rem;
+            width: 6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                color: #ffffff;
+                font-size: 0.8rem;
+                font-weight: 300;
+                text-decoration: none;
+            }
+        }
+        .scheduling-button:hover {
+            background-color: #ffffff;
+            a {
+                color: #000000;
+            }
+        }
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #about {
+        height: 1000px;
+        h3 {
+            color: #eeeeee;
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-top: 8rem;
+            margin-bottom: 0;
+        }
+        .about-elements {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-top: 4rem;
+            .elements-photo {
+                display: flex;
+                flex-direction: column;
+                justify-content: initial;
+                align-items: center;
+                width: 350px;
+                height: 360px;
+                img {
+                    width: 200px;
+                    border: none;
+                    border-radius: 30px;
+                    margin: 0 0 0 0;
+                }
+                .rv-name {
+                    padding: 1rem 0 0.5rem 0;
+                    margin: 0;
+                    font-size: 1.2rem;
+                }
+                p {
+                    color: #ffffff;
+                    margin-bottom: 0;
+                    font-size: 1.2rem;
+                    font-weight: lighter;
+                }
+            }
+            .elements-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 550px;
+                h2 {
+                    display: block;
+                    padding: 1rem 0;
+                    font-size: 1.8rem;
+                    font-weight: 400;
+                    color: #ffffff;
+                    text-shadow: 1px 1px 1px #000000;
+                }
+                p {
+                    color: #ffffff;
+                    text-align: left;
+                    font-weight: 300;
+                    font-size: 1.5rem;
+                    width: 500px;
+                    padding: 0;
+                    margin: 1rem 0;
+                }
+            }
+        }
+        .scheduling-p {
+            color: #ffffff;
+            padding: 0.2rem;
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin: 2rem 0 0.5rem 0;
+        }
+        .scheduling-button {
+            background-color: transparent;
+            border-radius: 20px;
+            border: solid 0.1rem #ffffff;
+            box-shadow:1px 1px #000000;
+            height: 2.5rem;
+            width: 7rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                color: #ffffff;
+                font-size: 1rem;
+                font-weight: 300;
+                text-decoration: none;
+            }
+        }
+        .scheduling-button:hover {
+            background-color: #ffffff;
+            a {
+                color: #000000;
+            }
+        }
+    }
+}
+@media (min-width: 1441px) {
+    #about {
+        height: 1300px;
+        h3 {
+            color: #eeeeee;
+            font-size: 2rem;
+            font-weight: 300;
+            margin-top: 15rem;
+            margin-bottom: 0;
+        }
+        .about-elements {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-top: 4rem;
+            .elements-photo {
+                display: flex;
+                flex-direction: column;
+                justify-content: initial;
+                align-items: center;
+                width: 400px;
+                height: 400px;
+                img {
+                    width: 285px;
+                    border: none;
+                    border-radius: 30px;
+                    margin: 0 0 0 0;
+                }
+                .rv-name {
+                    padding: 1rem 0 0.5rem 0;
+                    margin: 0;
+                    font-size: 1.5rem;
+                }
+                p {
+                    color: #ffffff;
+                    margin-bottom: 0;
+                    font-size: 1.5rem;
+                    font-weight: lighter;
+                }
+            }
+            .elements-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 850px;
+                h2 {
+                    display: block;
+                    padding: 1rem 0;
+                    font-size: 2.2rem;
+                    font-weight: 400;
+                    color: #ffffff;
+                    text-shadow: 1px 1px 1px #000000;
+                }
+                p {
+                    color: #ffffff;
+                    text-align: left;
+                    font-weight: 300;
+                    font-size: 2rem;
+                    width: 720px;
+                    padding: 0;
+                    margin: 1rem 0;
+                }
+            }
+        }
+        .scheduling-p {
+            color: #ffffff;
+            padding: 0.2rem;
+            font-size: 2rem;
+            font-weight: 300;
+            margin: 4rem 0 1rem 0;
+        }
+        .scheduling-button {
+            background-color: transparent;
+            border-radius: 30px;
+            border: solid 0.1rem #ffffff;
+            box-shadow:1px 1px #000000;
+            height: 3.2rem;
+            width: 10rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                color: #ffffff;
+                font-size: 1.5rem;
+                font-weight: 300;
+                text-decoration: none;
+            }
+        }
+        .scheduling-button:hover {
+            background-color: #ffffff;
+            a {
+                color: #000000;
+            }
+        }
+    }
+}
