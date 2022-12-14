@@ -7,11 +7,11 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 export default function Navbar() {
     const openMenu = () => {
         const menu = document.querySelector('.navbar-mobile-menu');
-        menu.style.display === "none" ? menu.style.display = "block" : menu.style.display = "none"
+        menu.style.visibility === "hidden" ? menu.style.visibility = "visible" : menu.style.visibility = "hidden"
     }
     const closeMenu = () => {
         const menu = document.querySelector('.navbar-mobile-menu');
-        menu.style.display === "block" ? menu.style.display = "none" : menu.style.display = "block"
+        menu.style.visibility === "visible" ? menu.style.visibility = "hidden" : menu.style.visibility = "visible"
     }
     const openDropdown = () => {
         const dropdown = document.querySelector('.dropdown-content');
