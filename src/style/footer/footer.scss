@@ -1,7 +1,6 @@
 #footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-bottom: 60px;
     height: 320px;
@@ -10,7 +9,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0.5rem 0;
+        margin: 1.7rem 0 0.5rem 0;
         .items-address {
             display: flex;
             flex-direction: column;
@@ -34,7 +33,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin: 0.5rem 0;
+                margin: 1rem 0;
                 h6 {
                     font-size: 1rem;
                     font-weight: 300;
@@ -51,7 +50,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin: 0.5rem 0;
+                margin: 1rem 0;
                 h6 {
                     font-size: 1rem;
                     font-weight: 300;
@@ -95,7 +94,6 @@
     #footer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         margin-bottom: 7rem;
         height: 400px;
@@ -104,7 +102,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 0.5rem 0;
+            margin: rem 0 0 0;
             .items-address {
                 display: flex;
                 flex-direction: column;
@@ -202,13 +200,13 @@
                 flex-direction: column;
                 align-items: flex-start;
                 h6 {
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     font-weight: 300;
                     margin-bottom: 0.5rem;
                 }
                 p {
-                    font-size: 0.8rem;
-                    max-width: 280px;
+                    font-size: 1rem;
+                    max-width: 340px;
                     font-weight: 300;
                     text-align: left;
                     margin: 0.2rem 0;
@@ -221,12 +219,12 @@
                     align-items: flex-start;
                     margin: 0.5rem 0;
                     h6 {
-                        font-size: 1rem;
+                        font-size: 1.2rem;
                         font-weight: 300;
                         margin-bottom: 0.5rem;
                     }
                     p {
-                        font-size: 0.8rem;
+                        font-size: 1rem;
                         font-weight: 300;
                         margin-bottom: 0.2rem;
                     }
@@ -238,11 +236,11 @@
                     margin: 0.5rem 0;
                     h6 {
                         font-weight: 300;
-                        font-size: 1rem;
+                        font-size: 1.2rem;
                         margin-bottom: 0.5rem;
                     }
                     a {
-                        font-size: 0.8rem;
+                        font-size: 1rem;
                         font-weight: 300;
                         color: #000000;
     
@@ -256,7 +254,7 @@
                 height: 6rem;
                 h6 {
                     font-weight: 300;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     margin-bottom: 0.5rem;
                 }
                 a {
@@ -273,12 +271,12 @@
             align-items: center;
             margin: 2rem 0 0 0;
             p {
-                font-size: 0.8rem;
+                font-size: 1rem;
                 font-weight: 300;
                 margin-bottom: 0.2rem;
             }
             h6 {
-                font-size: 0.7rem;
+                font-size: 0.9rem;
                 font-weight: 300;
                 a {
                     color: #000000;
@@ -369,7 +367,9 @@
                     font-size: 1.2rem;
                     font-weight: 300;
                     color: #000000;
-
+                }
+                a:hover {
+                    color: #7a7a7a;
                 }
             }
         }
@@ -407,18 +407,18 @@
             justify-content: space-between;
             width: 90%;
             align-items: center;
-            margin: 0.5rem 0;
+            margin: 3rem 0;
             .items-address {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 h6 {
-                    font-size: 2.2rem;
+                    font-size: 2rem;
                     font-weight: 300;
                     margin-bottom: 1rem;
                 }
                 p {
-                    font-size: 1.8rem;
+                    font-size: 1.5rem;
                     max-width: 580px;
                     font-weight: 300;
                     text-align: left;
@@ -432,12 +432,12 @@
                     align-items: flex-start;
                     margin: 0.5rem 0;
                     h6 {
-                        font-size: 2.2rem;
+                        font-size: 2rem;
                         font-weight: 300;
                         margin-bottom: 1rem;
                     }
                     p {
-                        font-size: 1.8rem;
+                        font-size: 1.5rem;
                         font-weight: 300;
                         margin-bottom: 1rem;
                     }
@@ -449,11 +449,11 @@
                     margin: 0.5rem 0;
                     h6 {
                         font-weight: 300;
-                        font-size: 2.2rem;
+                        font-size: 2rem;
                         margin-bottom: 1rem;
                     }
                     a {
-                        font-size: 1.8rem;
+                        font-size: 1.5rem;
                         font-weight: 300;
                         color: #000000;
     
@@ -467,14 +467,16 @@
                 height: 12rem;
                 h6 {
                     font-weight: 300;
-                    font-size: 2.2rem;
+                    font-size: 2rem;
                     margin-bottom: 0.5rem;
                 }
                 a {
                     font-size: 1.8rem;
                     font-weight: 300;
                     color: #000000;
-
+                }
+                a:hover {
+                    color: #7a7a7a;
                 }
             }
         }
@@ -484,12 +486,12 @@
             align-items: center;
             margin: 4rem 0 0 0;
             p {
-                font-size: 1.8rem;
+                font-size: 1.5rem;
                 font-weight: 300;
                 margin-bottom: 0.5rem;
             }
             h6 {
-                font-size: 1.8rem;
+                font-size: 1.5rem;
                 font-weight: 300;
                 a {
                     color: #000000;

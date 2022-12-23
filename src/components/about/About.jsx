@@ -2,15 +2,17 @@ import RV from '../../assets/about/RV2.jpeg';
 
 import '../../style/about/about.scss';
 
-function About() {
+export default function About() {
     return (
         <section id="about">
             <h3>Sobre</h3>
             <div className="about-elements">
                 <div className='elements-photo'>
                     <img src={RV} alt="Foto de Renata Victor." />
-                    <p className='rv-name'>Renata Victor de Andrade</p>
-                    <p>Criadora</p>
+                    <div className="photo-complement">
+                        <p className='rv-name'>Renata Victor de Andrade</p>
+                        <p>Criadora</p>
+                    </div>
                 </div>
                 <div className='elements-text'>
                     <h2>Bendita Beleza</h2>
@@ -26,5 +28,3 @@ function About() {
         </section>
     )
 };
-
-export default About;

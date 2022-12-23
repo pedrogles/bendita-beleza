@@ -1,7 +1,8 @@
 import '../../style/navbar/navbar.scss';
 import RV from '../../assets/logo/RVFullColor.png';
+import RV2 from '../../assets/logo/RV.png';
 
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 
 export default function Navbar() {
@@ -9,12 +10,12 @@ export default function Navbar() {
         const menu = document.querySelector('.navbar-mobile-menu');
         menu.style.visibility === "hidden" ? menu.style.visibility = "visible" : menu.style.visibility = "hidden"
     }
-    const closeMenu = () => {
-        const menu = document.querySelector('.navbar-mobile-menu');
-        menu.style.visibility === "visible" ? menu.style.visibility = "hidden" : menu.style.visibility = "visible"
+    const openDropdownMobile = () => {
+        const dropdown = document.querySelector('.dropdown-content-mobile');
+        dropdown.style.display === "none" ? dropdown.style.display = "flex" : dropdown.style.display = "none"
     }
-    const openDropdown = () => {
-        const dropdown = document.querySelector('.dropdown-content');
+    const openDropdownDesktop = () => {
+        const dropdown = document.querySelector('.dropdown-content-desktop');
         dropdown.style.display === "none" ? dropdown.style.display = "flex" : dropdown.style.display = "none"
     }
     return (
@@ -32,23 +33,31 @@ export default function Navbar() {
                     </button>
                 </div>
                 <div className='navbar-mobile-menu'>
-                    <div className='menu-background'>
-                        <div className='menu-close'>
-                            <AiOutlineClose onClick={closeMenu} className='menu-close-icon'/>
+                    <nav>
+                        <img 
+                        className="header-logo" 
+                        src={RV2} alt="Logo Renata Victor." 
+                        />
+                        <ul className='menu-itens'>
+                            <li><a onClick={openMenu} href="#home">Inicío</a>
+                            </li>
+                            <li><a onClick={openMenu} href="#about">Sobre</a></li>
+                            <li>
+                                <button onClick={openDropdownMobile} className="dropdown-button-mobile">Serviços</button>
+                                <div className="dropdown-content-mobile">
+                                    <a onClick={openMenu} href="#services">Lista de serviços</a>
+                                    <a onClick={openMenu} href="#carousel">Fotos</a>
+                                    <a onClick={openMenu} href="#beforeAfter">Antes e depois</a>
+                                </div>
+                            </li>
+                            <li><a onClick={openMenu} href="#localization">Localização</a></li>
+                            <li><a onClick={openMenu} href="#contact">Contato</a></li>
+                        </ul>
+                        <div className="buttons">
+                            <button className='login' disabled>Entrar</button>
+                            <button className='register' disabled>Cadastre-se</button>
                         </div>
-                        <nav>
-                            <ul className='menu-itens'>
-                                <li><a onClick={closeMenu} href="#home">Inicío</a>
-                                </li>
-                                <li><a onClick={closeMenu} href="#about">Sobre</a></li>
-                                <li><a onClick={closeMenu} href="#services">Serviços</a></li>
-                                <li><a onClick={closeMenu} href="#carousel">Fotos</a></li>
-                                <li><a onClick={closeMenu} href="#beforeAfter">Antes e Depois</a></li>
-                                <li><a onClick={closeMenu} href="#localization">Localização</a></li>
-                                <li><a onClick={closeMenu} href="#contact">Contato</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+                    </nav>
                 </div>
             </div>
             <div className="navbar-desktop">
@@ -57,12 +66,13 @@ export default function Navbar() {
                     <ul className="navbar-desktop-elements">
                         <li><a href="#home">Início</a></li>
                         <li><a href="#about">Sobre</a></li>
-                        <li><button onClick={openDropdown} className="dropdown">Serviços</button>
-                                <div className="dropdown-content">
-                                    <a onClick={openDropdown} href="#services">Lista de serviços</a>
-                                    <a onClick={openDropdown} href="#carousel">Fotos</a>
-                                    <a onClick={openDropdown} href="#beforeAfter">Antes e depois</a>
-                                </div>
+                        <li>
+                            <button onClick={openDropdownDesktop} className="dropdown-button-desktop">Serviços</button>
+                            <div className="dropdown-content-desktop">
+                                <a onClick={openDropdownDesktop} href="#services">Lista de serviços</a>
+                                <a onClick={openDropdownDesktop} href="#carousel">Fotos</a>
+                                <a onClick={openDropdownDesktop} href="#beforeAfter">Antes e depois</a>
+                            </div>
                         </li>
                         <li><a href="#localization">Localização</a></li>
                         <li><a href="#contact">Contato</a></li>

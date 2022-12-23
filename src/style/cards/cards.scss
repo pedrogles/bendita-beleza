@@ -15,9 +15,9 @@
             height: 19rem;
             width: 14rem;
             border-radius: 20px 20px 0 0;
-            -webkit-box-shadow: 0px -9px 30px 0px #f5b4b4;
-            -moz-box-shadow:    0px -9px 30px 0px #f5b4b4;
-            box-shadow:         0px -9px 30px 0px #f5b4b4;
+            -webkit-box-shadow: 0px -4px 15px 0px #d38484;
+            -moz-box-shadow:    0px -4px 15px 0px #d38484;
+            box-shadow:         0px -4px 15px 0px #d38484;
         }
         .buttons1 {
             display: flex;
@@ -53,9 +53,9 @@
             height: 19rem;
             width: 14rem;
             border-radius: 20px 20px 0 0;
-            -webkit-box-shadow: 0px -9px 30px 0px #f5b4b4;
-            -moz-box-shadow:    0px -9px 30px 0px #f5b4b4;
-            box-shadow:         0px -9px 30px 0px #f5b4b4;
+            -webkit-box-shadow: 0px -4px 15px 0px #d38484;
+            -moz-box-shadow:    0px -4px 15px 0px #d38484;
+            box-shadow:         0px -4px 15px 0px #d38484;
         }
         .buttons2 {
             display: flex;
@@ -91,9 +91,9 @@
             height: 19rem;
             width: 14rem;
             border-radius: 20px 20px 0 0;
-            -webkit-box-shadow: 0px -9px 30px 0px #f5b4b4;
-            -moz-box-shadow:    0px -9px 30px 0px #f5b4b4;
-            box-shadow:         0px -9px 30px 0px #f5b4b4;
+            -webkit-box-shadow: 0px -4px 15px 0px #d38484;
+            -moz-box-shadow:    0px -4px 15px 0px #d38484;
+            box-shadow:         0px -4px 15px 0px #d38484;
         }
         .buttons3 {
             display: flex;
@@ -129,9 +129,9 @@
             height: 19rem;
             width: 14rem;
             border-radius: 20px 20px 0 0;
-            -webkit-box-shadow: 0px -9px 30px 0px #f5b4b4;
-            -moz-box-shadow:    0px -9px 30px 0px #f5b4b4;
-            box-shadow:         0px -9px 30px 0px #f5b4b4;
+            -webkit-box-shadow: 0px -4px 15px 0px #d38484;
+            -moz-box-shadow:    0px -4px 15px 0px #d38484;
+            box-shadow:         0px -4px 15px 0px #d38484;
         }
         .buttons4 {
             display: flex;
@@ -173,7 +173,7 @@
                     margin: 0.5rem;
                     height: 3rem;
                     width: 21rem;
-                    border-radius: 20px;
+                    border-radius: 10px;
                     font-size: 1.35rem;
                 }
             }
@@ -191,7 +191,7 @@
                     margin: 0.5rem;
                     height: 3rem;
                     width: 21rem;
-                    border-radius: 20px;
+                    border-radius: 10px;
                     font-size: 1.35rem;
                 }
             }
@@ -209,7 +209,7 @@
                     margin: 0.5rem;
                     height: 3rem;
                     width: 21rem;
-                    border-radius: 20px;
+                    border-radius: 10px;
                     font-size: 1.35rem;
                 }
             }
@@ -227,7 +227,7 @@
                     margin: 0.5rem;
                     height: 3rem;
                     width: 21rem;
-                    border-radius: 20px;
+                    border-radius: 10px;
                     font-size: 1.35rem;
                 }
             }
@@ -248,16 +248,16 @@
             }
             .buttons1 {
                 width: 20rem;
-                height: 6rem;
+                height: 7rem;
                 button {
-                    height: 2rem;
+                    height: 2.5rem;
                     width: 19rem;
                     margin: 0.3rem;
                     padding: 0.1rem;
                     border: solid 0.1rem #ffffff;
                     background-color: transparent;
                     color: #ffffff;
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                 }
             }
         }
@@ -271,16 +271,16 @@
             }
             .buttons2 {
                 width: 20rem;
-                height: 6rem;
+                height: 7rem;
                 button {
-                    height: 2rem;
+                    height: 2.5rem;
                     width: 19rem;
                     margin: 0.3rem;
                     padding: 0.1rem;
                     border: solid 0.1rem #ffffff;
                     background-color: transparent;
                     color: #ffffff;
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                 }
             }
         }
@@ -294,16 +294,16 @@
             }
             .buttons3 {
                 width: 20rem;
-                height: 6rem;
+                height: 7rem;
                 button {
-                    height: 2rem;
+                    height: 2.5rem;
                     width: 19rem;
                     margin: 0.3rem;
                     padding: 0.1rem;
                     border: solid 0.1rem #ffffff;
                     background-color: transparent;
                     color: #ffffff;
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                 }
             }
         }
@@ -317,16 +317,16 @@
             }
             .buttons4 {
                 width: 20rem;
-                height: 6rem;
+                height: 7rem;
                 button {
-                    height: 2rem;
+                    height: 2.5rem;
                     width: 19rem;
                     margin: 0.3rem;
                     padding: 0.1rem;
                     border: solid 0.1rem #ffffff;
                     background-color: transparent;
                     color: #ffffff;
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                 }
             }
         }
@@ -444,9 +444,9 @@
             }
             .buttons1 {
                 width: 26rem;
-                height: 8rem;
+                height: 10rem;
                 button {
-                    height: 2.5rem;
+                    height: 3.5rem;
                     width: 25rem;
                     margin: 0.3rem;
                     padding: 0.1rem;
@@ -467,9 +467,9 @@
             }
             .buttons2 {
                 width: 26rem;
-                height: 8rem;
+                height: 10rem;
                 button {
-                    height: 2.5rem;
+                    height: 3.5rem;
                     width: 25rem;
                     margin: 0.3rem;
                     padding: 0.1rem;
@@ -490,9 +490,9 @@
             }
             .buttons3 {
                 width: 26rem;
-                height: 8rem;
+                height: 10rem;
                 button {
-                    height: 2.5rem;
+                    height: 3.5rem;
                     width: 25rem;
                     margin: 0.3rem;
                     padding: 0.1rem;
@@ -513,9 +513,9 @@
             }
             .buttons4 {
                 width: 26rem;
-                height: 8rem;
+                height: 10rem;
                 button {
-                    height: 2.5rem;
+                    height: 3.5rem;
                     width: 25rem;
                     margin: 0.3rem;
                     padding: 0.1rem;

@@ -1,6 +1,6 @@
 #carousel {
     background-image: url('../../assets/backgrounds/Backg1.png');
-    height: 650px;
+    height: 750px;
     .carousel-title {
         display: flex;
         justify-content: center;
@@ -10,7 +10,7 @@
             text-shadow: 1px 1px 1px #cacaca;
             font-size: 1.5rem;
             font-weight: 300;
-            margin-top: 5rem;
+            margin-top: 8rem;
             margin-bottom: 1rem;
         }
     }
@@ -18,6 +18,7 @@
         cursor: grab;
         overflow: hidden;
         background-image: url('../../assets/backgrounds/Backg1.png');
+        margin-top: 3rem;
         .inner-carousel {
             display: flex;
             .carousel-item {
@@ -43,10 +44,11 @@
             text-decoration: none;
             h4 {
                 color: #1f1f1f;
-                font-size: 1rem;
+                font-size: 0.9rem;
                 font-weight: 300;
                 text-align: center;
                 max-width: 16rem;
+                margin-top: 1rem;
             }
             p {
                 color: #1f1f1f;
@@ -68,7 +70,7 @@
         height: 1250px;
         .carousel-title h3 {
             font-size: 3rem;
-            margin-top: 10rem;
+            margin-top: 14rem;
             margin-bottom: 5rem;
         }
         .carousel-container .inner-carousel .carousel-item {
@@ -77,12 +79,12 @@
         }
         .instagram a {
             h4 {
-                font-size: 1.8rem;
+                font-size: 1.5rem;
                 max-width: 24rem;
-                margin-top: 1rem;
+                margin-top: 2rem;
             }
             p {
-                font-size: 1.4rem;
+                font-size: 1.2rem;
                 margin: 1rem;
             }
             .icon {
@@ -95,20 +97,20 @@
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     #carousel {
-        height: 950px;
+        height: 1200px;
         .carousel-title h3 {
-            font-size: 1.5rem;
-            margin-top: 8rem;
+            font-size: 2.8rem;
+            margin-top: 10rem;
             margin-bottom: 5rem;
         }
         .carousel-container .inner-carousel .carousel-item {
-            min-height: 20rem;
-            min-width: 20rem;
+            min-height: 24rem;
+            min-width: 24rem;
         }
         .instagram a {
             h4 {
-                font-size: 1.5rem;
-                max-width: 25rem;
+                font-size: 1.8rem;
+                max-width: 30rem;
                 margin-top: 1rem;
             }
             p {
@@ -125,10 +127,10 @@
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
     #carousel {
-        height: 1050px;
+        height: 1200px;
         .carousel-title h3 {
-            font-size: 1.5rem;
-            margin-top: 8rem;
+            font-size: 2.8rem;
+            margin-top: 10rem;
             margin-bottom: 5rem;
         }
         .carousel-container .inner-carousel .carousel-item {
@@ -137,8 +139,8 @@
         }
         .instagram a {
             h4 {
-                font-size: 1.5rem;
-                max-width: 24rem;
+                font-size: 1.8rem;
+                max-width: 30rem;
                 margin-top: 1rem;
             }
             p {
@@ -155,29 +157,29 @@
 }
 @media (min-width: 1441px) {
     #carousel {
-        height: 1550px;
+        height: 1400px;
         .carousel-title h3 {
-            font-size: 2rem;
+            font-size: 2.8rem;
             margin-top: 15rem;
             margin-bottom: 5rem;
         }
         .carousel-container .inner-carousel .carousel-item {
-            min-height: 32rem;
-            min-width: 32rem;
+            min-height: 30rem;
+            min-width: 30rem;
         }
         .instagram a {
             h4 {
-                font-size: 2rem;
-                max-width: 38rem;
+                font-size: 1.8rem;
+                max-width: 30rem;
                 margin-top: 1rem;
             }
             p {
-                font-size: 1.9rem;
+                font-size: 1.4rem;
                 margin: 1rem;
             }
             .icon {
                 color: #1f1f1f;
-                font-size: 1.6rem;
+                font-size: 1.2rem;
                 margin: 0rem;
             }
         }

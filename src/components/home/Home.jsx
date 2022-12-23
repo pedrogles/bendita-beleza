@@ -6,6 +6,7 @@ export default function Home() {
     return (
         <section id="home">
             <div className="home-image">
+                <img className='home-image-photo' src={PhotoHome} alt="Foto de Cliente." />
                 <div className="home-image-text">
                     <h2>Sempre em busca de encontrar<br></br><span>Sua melhor versão</span>.</h2>
                     <div className="home-image-text-scheduling">
@@ -15,7 +16,6 @@ export default function Home() {
                         </button>
                     </div>
                 </div>
-                <img className='home-image-photo' src={PhotoHome} alt="Foto de Cliente." />
             </div>
         </section>
     )

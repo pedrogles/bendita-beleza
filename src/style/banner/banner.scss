@@ -6,14 +6,14 @@
     padding: 4rem;
     background-image: url("../../assets/backgrounds/Backg1.png");
     img {
-        width: 240px;
+        width: 230px;
     }
 }
 @media (min-width: 481px) and (max-width: 768px) {
     #banner{
-        height: 12rem;
+        height: 15rem;
         img {
-            width: 400px;
+            width: 350px;
         }
     }
 }
@@ -45,9 +45,9 @@
 }
 @media (min-width: 1441px) {
     #banner{
-        height: 250px;
+        height: 350px;
         img {
-            width: 500px;
+            width: 550px;
         }
     }
 }

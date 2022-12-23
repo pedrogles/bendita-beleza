@@ -12,3 +12,4 @@ import cliente10 from './assets/services/carousel/cliente10.png';
 const images = [cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, cliente7, cliente8, cliente9, cliente10];
 
 export default images;
+

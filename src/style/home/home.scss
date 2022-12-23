@@ -2,27 +2,35 @@
     display: flex;
     .home-image {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         margin-top: 3.75rem;
+        background-image: url('../../assets/backgrounds/Backg1.png');
+        .home-image-photo{
+            margin-top: 2rem;
+            border-radius: 20px 20px 0 0;
+            width: 272px;
+            z-index: 0;
+        }
         .home-image-text {
-            position: absolute;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            background-color: #00000041;
-            width: 100%;
+            background-color: #ffffff;
+            border-radius: 0 0 20px 20px;
+            width: 272px;
             padding: 1rem 0.5rem 1rem 1rem;
             z-index: 1;
             h2 {
-                color: #e7e7e7;
-                font-size: 1rem;
+                color: #000000;
+                font-size: 0.9rem;
                 font-weight: 300;
                 max-width: 270px;
                 margin: 0;
-                text-shadow: 1px 1px 2px #000000;
                 span {
-                    font-size: 2rem;
+                    font-size: 1.8rem;
                     font-weight: 300;
                 }
             }
@@ -30,16 +38,16 @@
                 display: flex;
                 align-items: center;
                 p {
-                    color: #e7e7e7;
+                    color: #000000;
                     margin: 0;
                     font-size: 0.8rem;
-                    text-shadow: 1px 1px 2px #000000;
+                    font-weight: 300;
                 }
                 .home-image-text-scheduling-button {
                     margin-left: 0.5rem;
                     width: 5rem;
                     height: 1.5rem;
-                    background-image: url('../../assets/backgrounds/Backg1.png');
+                    background-image: url('../../assets/backgrounds/Beckg2.png');
                     border-radius: 20px;
                     border: none;
                     display: flex;
@@ -47,54 +55,79 @@
                     justify-content: center;
                     a {
                         font-size: 0.6rem;
-                        color: #000000;
+                        color: #ffffff;
                         text-decoration: none;
                     }
                 }
             }
         }
-        .home-image-photo{
-            position: relative;
-            width: 100%;
-            z-index: 0;
-        }
     }
 }
 @media (min-width: 481px) and (max-width: 768px) {
     #home {
+        display: flex;
         .home-image {
-            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 7rem;
+            background-image: url('../../assets/backgrounds/Backg1.png');
+            .home-image-photo{
+                margin-top: 2rem;
+                border-radius: 20px 20px 0 0;
+                width: 400px;
+                z-index: 0;
+            }
             .home-image-text {
-                padding: 2rem 0.5rem 2rem 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: #ffffff;
+                border-radius: 0 0 20px 20px;
+                width: 400px;
+                padding: 1rem 0.5rem 1rem 1rem;
                 z-index: 1;
                 h2 {
-                    font-size: 1.8rem;
+                    color: #000000;
+                    font-size: 1.3rem;
                     font-weight: 300;
-                    max-width: 570px;
-                    margin: 0;
+                    max-width: 400px;
+                    margin: 1rem 0 0 0;
                     span {
-                        font-size: 3.3rem;
+                        font-size: 2.7rem;
                         font-weight: 300;
                     }
                 }
                 .home-image-text-scheduling {
+                    display: flex;
+                    align-items: center;
+                    margin: 0.5rem 0;
                     p {
-                        font-size: 1.5rem;
+                        color: #000000;
+                        margin: 0;
+                        font-size: 1rem;
                         font-weight: 300;
                     }
                     .home-image-text-scheduling-button {
-                        margin-left: 1.5rem;
-                        width: 8rem;
-                        height: 3rem;
+                        margin-left: 0.5rem;
+                        width: 6rem;
+                        height: 1.8rem;
+                        background-image: url('../../assets/backgrounds/Beckg2.png');
+                        border-radius: 20px;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                         a {
-                            font-size: 1.2rem;
+                            font-size: 0.9rem;
                             font-weight: 300;
+                            color: #ffffff;
+                            text-decoration: none;
                         }
                     }
                 }
-            }
-            .home-image-photo{
-                z-index: 0;
             }
         }
     }
@@ -185,13 +218,13 @@
             padding: 1rem 0.5rem 1rem 1rem;
             z-index: 1;
             h2 {
-                font-size: 1.7rem;
+                font-size: 1.8rem;
                 color: #000000;
-                max-width: 430px;
+                max-width: 500px;
                 text-shadow: none;
                 span {
                     color: #000000;
-                    font-size: 3.2rem;
+                    font-size: 3.5rem;
                 }
             }
             .home-image-text-scheduling {
@@ -236,24 +269,23 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        margin-top: 8rem;
+        margin-top: 7rem;
         .home-image-text {
             position: initial;
             border-radius: 30px;
             background-color: transparent;
-            max-width: 800px;
+            width: 700px;
             height: 200px;
             padding: 1rem 0.5rem 1rem 1rem;
-            margin: 0 0 0 2rem;
             z-index: 1;
             h2 {
-                font-size: 2.5rem;
+                font-size: 2.2rem;
                 color: #000000;
-                max-width: 720px;
+                max-width: 700px;
                 text-shadow: none;
                 span {
                     color: #000000;
-                    font-size: 5.2rem;
+                    font-size: 4.8rem;
                 }
             }
             .home-image-text-scheduling {
@@ -267,16 +299,16 @@
                     text-shadow: none;
                 }
                 .home-image-text-scheduling-button {
-                    margin-left: 1rem;
-                    width: 10rem;
-                    height: 3.2rem;
+                    margin-left: 0.5rem;
+                    width: 11rem;
+                    height: 3.4rem;
                     background-image: url('../../assets/backgrounds/navbar/BackNavbar.png');
                     border-radius: 30px;
                     a {
                         padding: 0.8rem 1.4rem;
-                        font-size: 1.4rem;
-                        font-weight: 300;
+                        font-size: 1.5rem;
                         color: #ffffff;
+                        font-weight: 300;
                     }
                 }
             }
@@ -284,8 +316,8 @@
         .home-image-photo{
             position: initial;
             border-radius: 30px;
-            margin: 2rem;
-            width: 650px;
+            margin: 6rem 3rem 0 0;
+            width: 700px;
             z-index: 0;
         }
     }
