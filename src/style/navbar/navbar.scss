@@ -17,7 +17,8 @@
             background-image: url("../../assets/backgrounds/navbar/BackNavbar.png");
             .header-logo {
                 margin-left: 1.2rem;
-                width: 40px;
+                height: 40px;
+                width: 45px;
             }
             .header-menu-button {
                 background-color: transparent;
@@ -32,25 +33,45 @@
         .navbar-mobile-menu {
             position: absolute;
             top: 0;
-            left: 0;
             height: 100vh;
-            width: calc(100% - 4.15rem);
-            background-image: url("../../assets/backgrounds/Backg1.png");
-            border-radius: 0 0 20px 0;
+            width: 100vw;
+            background-color: #00000070;
             z-index: 2;
             visibility: hidden;
-            overflow-y: auto;
-            nav {
-                .header-logo {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: flex-start;
+            .menu-close-button {
+                background-color: transparent;
+                border: none;
+                .menu-button-icon {
+                    margin: 1rem 1.2rem 0 0;
+                    color: #ffffff;
+                    font-size: 28px;
+                }
+            }
+            .menu-session {
+                height: 100vh;
+                width: 260px;
+                background-image: url("../../assets/backgrounds/Backg1.png");
+                border-radius: 0 0 20px 0;
+                overflow-y: auto;
+                .menu-header {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
                     margin: 1rem 0 0 2rem;
-                    width: 50px;
-                    color: #000000;
+                    h2 {
+                        font-size: 1.777rem;
+                        font-weight: 300;
+                    }
                 }
                 .menu-itens {
                     display: flex;
                     flex-direction: column;
                     align-items: flex-start;
-                    margin-top: 2rem;
+                    margin-top: 1rem;
                     li {
                         list-style: none;
                         margin: 1.5rem 0 1.5rem 2rem;
@@ -58,33 +79,44 @@
                         border-bottom: solid 0.1rem #a9a9a9;
                         a {
                             color: #000000;
-                            font-size: 1.2rem;
+                            font-size: 1.333rem;
                             text-decoration: none;
                             font-weight: 300;
+                            margin-left: 0.5rem;
                         }
                         .dropdown-button-mobile {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 90%;
                             border: none;
                             background-color: transparent;
                             color: #000000;
-                            font-size: 1.2rem;
+                            font-size: 1.333rem;
                             text-decoration: none;
                             font-weight: 300;
+                            margin-left: 0.5rem;
+                            .arrow-dropdown {
+                                transform: rotate(0.25turn);
+                            }
                         }
                         .dropdown-content-mobile {
                             display: none;
                             flex-direction: column;
                             margin: 0.5rem 0;
                             a {
-                                margin: 0.5rem 0 0 0.5rem;
+                                margin: 0.8rem 0 0 1rem;
                                 font-size: 1rem;
                             }
                         }
                     }
                 }
                 .buttons {
-                    margin: 5rem 2rem 0 2rem;
+                    margin: 5rem 0 0 0;
                     display: flex;
                     flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
                     .login {
                         padding: 0.5rem;
                         border-radius: 10px;
@@ -92,6 +124,7 @@
                         font-weight: 300;
                         background-color: transparent;
                         margin-bottom: 1rem;
+                        width: 220px;
                     }
                     .register {
                         padding: 0.5rem;
@@ -100,7 +133,8 @@
                         font-weight: 300;
                         background-color: #ffffff;
                         border: none;
-                        margin-bottom: 1rem;
+                        margin-bottom: 6rem;
+                        width: 220px;
                     }
                 }
             }
@@ -115,6 +149,7 @@
                 .header-logo {
                     margin-left: 2rem;
                     width: 80px;
+                    height: 75px;
                 }
                 .header-menu-button .header-menu-button-icon {
                     margin: 0 2rem;
@@ -123,57 +158,71 @@
             }
             .navbar-mobile-menu {
                 height: 100vh;
-                width: calc(100% - 8rem);
+                width: 100vw;
                 border-radius: 0 0 20px 0;
-                nav {
-                    .header-logo {
-                        width: 80px;
+                .menu-close-button .menu-button-icon {  
+                    font-size: 4rem;
+                    margin: 1.5rem 2rem 0 0;
+
+                }
+                .menu-session {
+                    width: 355px;
+                    overflow-x: hidden;
+                    .menu-header h2 {
+                        font-size: 2.369rem;
+                        margin: 1.5rem 2rem 0 0;
                     }
                     .menu-itens {
                         margin-top: 2rem;
                         li {
-                            margin: 2rem 2rem;
+                            margin: 2rem 0 2rem 2rem;
                             a {
-                                font-size: 2rem;
+                                margin-left: 1rem;
+                                font-size: 1.777rem;
                             }
                             .dropdown-button-mobile {
                                 border: none;
                                 background-color: transparent;
                                 color: #000000;
-                                font-size: 2rem;
+                                font-size: 1.777rem;
                                 text-decoration: none;
                                 font-weight: 300;
+                                margin-left: 1rem;
                             }
                             .dropdown-content-mobile {
                                 display: none;
                                 flex-direction: column;
                                 margin: 0.5rem 0;
                                 a {
-                                    margin: 1rem 0 0 0.5rem;
-                                    font-size: 1.6rem;
+                                    margin: 1rem 0 0 2rem;
+                                    font-size: 1.333rem;
                                 }
                             }
                         }
                     }
                     .buttons {
-                        margin: 5rem 2rem 0 2rem;
+                        margin: 5rem 2rem rem 0;
                         display: flex;
                         flex-direction: column;
                         .login {
                             padding: 0.5rem;
                             border-radius: 10px;
-                            font-size: 1.8rem;
+                            font-size: 1.333rem;
                             font-weight: 300;
                             background-color: transparent;
                             margin-bottom: 1rem;
+                            width: 280px;
+                            height: 3rem;
                         }
                         .register {
                             padding: 0.5rem;
                             border-radius: 10px;
-                            font-size: 1.8rem;
+                            font-size: 1.333rem;
                             font-weight: 300;
                             background-color: #ffffff;
                             border: none;
+                            width: 280px;
+                            height: 3rem;
                         }
                     }
                 }
@@ -184,28 +233,27 @@
 @media (min-width: 769px) and (max-width: 1024px) {
     #navbar {
         .navbar-desktop {
-            height: 4rem;
+            height: 5rem;
             width: 100vw;
             background-image: url("../../assets/backgrounds/navbar/BackNavbar.png");
             display: flex;
             flex-direction: row;
+            justify-content: space-evenly;
             align-items: center;
             .navbar-dekstop-logo {
-                width: 50px;
+                width: 55px;
                 height: 50px;
-                margin-left: 5rem;
             }
             .navbar-desktop-elements {
                 display: flex;
                 flex-direction: row;
-                margin-left: 3rem;
                 li {
-                    margin: 0 0.8rem;
-                    list-style: none;
+                    margin: 0 0.5rem;
+                    list-style: none;  
                     a {
                         text-decoration: none;
                         color: #ffffff;
-                        font-size: 1.2rem;
+                        font-size: 1.222rem;
                         font-weight: 300;
                     }
                     a:hover {
@@ -216,7 +264,7 @@
                         display: inline-block;
                         background-color: transparent;
                         border: none;
-                        font-size: 1.2rem;
+                        font-size: 1.222rem;
                         font-weight: 300;
                         color: #ffffff;
                         cursor: pointer;
@@ -232,6 +280,7 @@
                     z-index: 1;
                     a {
                         color: #000000;
+                        font-size: 1.111rem;
                         padding: 0.5rem 1rem;
                     }
                     }
@@ -239,6 +288,32 @@
                         text-decoration: underline;
                     }
     
+                }
+            }
+            .navbar-desktop-buttons {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .login {
+                    padding: 0.5rem;
+                    border-radius: 10px;
+                    font-size: 1rem;
+                    color: #ffffff;
+                    border: solid 0.1rem #ffffff;
+                    font-weight: 300;
+                    background-color: transparent;
+                    width: 100px;
+                    margin-right: 1rem;
+                }
+                .register {
+                    padding: 0.5rem;
+                    border-radius: 10px;
+                    font-size: 1rem;
+                    font-weight: 300;
+                    background-color: #ffffff;
+                    border: none;
+                    width: 120px;
                 }
             }
         }
@@ -255,23 +330,22 @@
             background-image: url("../../assets/backgrounds/navbar/BackNavbar.png");
             display: flex;
             flex-direction: row;
+            justify-content: space-evenly;
             align-items: center;
             .navbar-dekstop-logo {
-                width: 50px;
+                width: 55px;
                 height: 50px;
-                margin-left: 5rem;
             }
             .navbar-desktop-elements {
                 display: flex;
                 flex-direction: row;
-                margin-left: 3rem;
                 li {
-                    margin: 0 0.8rem;
+                    margin: 0 1rem;
                     list-style: none;
                     a {
                         text-decoration: none;
                         color: #ffffff;
-                        font-size: 1.2rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                     }
                     a:hover {
@@ -282,7 +356,7 @@
                         display: inline-block;
                         background-color: transparent;
                         border: none;
-                        font-size: 1.2rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         color: #ffffff;
                         cursor: pointer;
@@ -307,6 +381,32 @@
     
                 }
             }
+            .navbar-desktop-buttons {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .login {
+                    padding: 0.5rem;
+                    border-radius: 10px;
+                    font-size: 1rem;
+                    color: #ffffff;
+                    border: solid 0.1rem #ffffff;
+                    font-weight: 300;
+                    background-color: transparent;
+                    width: 100px;
+                    margin-right: 1rem;
+                }
+                .register {
+                    padding: 0.5rem;
+                    border-radius: 10px;
+                    font-size: 1rem;
+                    font-weight: 300;
+                    background-color: #ffffff;
+                    border: none;
+                    width: 120px;
+                }
+            }
         }
         .navbar-mobile {
             display: none;
@@ -316,28 +416,27 @@
 @media (min-width: 1441px){
     #navbar {
         .navbar-desktop {
-            height: 8rem;
+            height: 6rem;
             width: 100vw;
             background-image: url("../../assets/backgrounds/navbar/BackNavbar.png");
             display: flex;
             flex-direction: row;
+            justify-content: space-around;
             align-items: center;
             .navbar-dekstop-logo {
-                width: 90px;
-                height: 90px;
-                margin-left: 5rem;
+                width: 75px;
+                height: 70px;
             }
             .navbar-desktop-elements {
                 display: flex;
                 flex-direction: row;
-                margin-left: 3rem;
                 li {
                     margin: 0 1rem;
                     list-style: none;
                     a {
                         text-decoration: none;
                         color: #ffffff;
-                        font-size: 2rem;
+                        font-size: 1.777rem;
                         font-weight: 300;
                     }
                     a:hover {
@@ -348,10 +447,13 @@
                         display: inline-block;
                         background-color: transparent;
                         border: none;
-                        font-size: 2rem;
+                        font-size: 1.777rem;
                         font-weight: 300;
                         color: #ffffff;
                         cursor: pointer;
+                    }
+                    .dropdown-button-desktop:hover {
+                        text-decoration: underline;
                     }
                     .dropdown-content-desktop {
                     display: none;
@@ -360,18 +462,41 @@
                     background-color: #f9f9f9;
                     min-width: 160px;
                     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                    padding: 12px 16px;
+                    padding: 0.5rem;
                     z-index: 1;
                     a {
-                        font-size: 1.9rem;
                         color: #000000;
-                        padding: 1rem;
+                        font-size: 1.333rem;
+                        padding: 0.5rem 1rem;
                     }
-                    }
-                    .dropdown:hover  {
-                        text-decoration: underline;
                     }
     
+                }
+            }
+            .navbar-desktop-buttons {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .login {
+                    padding: 0.5rem;
+                    border-radius: 10px;
+                    font-size: 1.333rem;
+                    color: #ffffff;
+                    border: solid 0.1rem #ffffff;
+                    font-weight: 300;
+                    background-color: transparent;
+                    width: 100px;
+                    margin-right: 2rem;
+                }
+                .register {
+                    padding: 0.5rem;
+                    border-radius: 10px;
+                    font-size: 1.333rem;
+                    font-weight: 300;
+                    background-color: #ffffff;
+                    border: none;
+                    width: 140px;
                 }
             }
         }

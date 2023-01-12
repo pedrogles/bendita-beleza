@@ -96,25 +96,25 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 7rem;
-        height: 400px;
+        height: 500px;
         background-image: url('../../assets/backgrounds/Backg1.png');
         .footer-items {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: rem 0 0 0;
+            margin: 2rem 0 0 0;
             .items-address {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 h6 {
-                    font-size: 1.5rem;
+                    font-size: 1.777rem;
                     font-weight: 300;
                     margin-bottom: 0.5rem;
                 }
                 p {
-                    font-size: 1.2rem;
-                    max-width: 380px;
+                    font-size: 1.333rem;
+                    max-width: 400px;
                     font-weight: 300;
                     text-align: center;
                     margin: 0.2rem 0;
@@ -125,14 +125,14 @@
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    margin: 0.5rem 0;
+                    margin: 1.2rem 0;
                     h6 {
-                        font-size: 1.5rem;
+                        font-size: 1.777rem;
                         font-weight: 300;
                         margin-bottom: 0.5rem;
                     }
                     p {
-                        font-size: 1.2rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         margin-bottom: 0.2rem;
                     }
@@ -144,11 +144,11 @@
                     margin: 0.5rem 0;
                     h6 {
                         font-weight: 300;
-                        font-size: 1.5rem;
+                        font-size: 1.777rem;
                         margin-bottom: 0.5rem;
                     }
                     a {
-                        font-size: 1.2rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         color: #000000;
     
@@ -163,14 +163,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 0.5rem 0;
+            margin: 2rem 0;
             p {
-                font-size: 1.2rem;
+                font-size: 1.333rem;
                 font-weight: 300;
                 margin-bottom: 0.5rem;
             }
             h6 {
-                font-size: 1.1rem;
+                font-size: 1.333rem;
                 font-weight: 300;
                 a {
                     color: #000000;
@@ -193,14 +193,14 @@
             flex-direction: row;
             justify-content: space-between;
             width: 90%;
-            align-items: center;
+            align-items: flex-start;
             margin: 0.5rem 0;
             .items-address {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 h6 {
-                    font-size: 1.2rem;
+                    font-size: 1.333rem;
                     font-weight: 300;
                     margin-bottom: 0.5rem;
                 }
@@ -219,7 +219,7 @@
                     align-items: flex-start;
                     margin: 0.5rem 0;
                     h6 {
-                        font-size: 1.2rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         margin-bottom: 0.5rem;
                     }
@@ -236,7 +236,7 @@
                     margin: 0.5rem 0;
                     h6 {
                         font-weight: 300;
-                        font-size: 1.2rem;
+                        font-size: 1.333rem;
                         margin-bottom: 0.5rem;
                     }
                     a {
@@ -250,18 +250,18 @@
             .items-social {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
+                align-items: flex-end;
                 height: 6rem;
                 h6 {
                     font-weight: 300;
-                    font-size: 1.2rem;
-                    margin-bottom: 0.5rem;
+                    font-size: 1.333rem;
+                    border-bottom: solid 0.1rem #000000;
+                    margin: 0.5rem 0 0.5rem 0;
                 }
                 a {
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     font-weight: 300;
                     color: #000000;
-
                 }
             }
         }
@@ -276,7 +276,7 @@
                 margin-bottom: 0.2rem;
             }
             h6 {
-                font-size: 0.9rem;
+                font-size: 1rem;
                 font-weight: 300;
                 a {
                     color: #000000;
@@ -299,20 +299,20 @@
             flex-direction: row;
             justify-content: space-between;
             width: 90%;
-            align-items: center;
+            align-items: flex-start;
             margin: 0.5rem 0;
             .items-address {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 h6 {
-                    font-size: 1.2rem;
+                    font-size: 1.333rem;
                     font-weight: 300;
                     margin-bottom: 0.5rem;
                 }
                 p {
                     font-size: 1rem;
-                    max-width: 280px;
+                    max-width: 340px;
                     font-weight: 300;
                     text-align: left;
                     margin: 0.2rem 0;
@@ -325,7 +325,7 @@
                     align-items: flex-start;
                     margin: 0.5rem 0;
                     h6 {
-                        font-size: 1.2rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         margin-bottom: 0.5rem;
                     }
@@ -342,7 +342,7 @@
                     margin: 0.5rem 0;
                     h6 {
                         font-weight: 300;
-                        font-size: 1.2rem;
+                        font-size: 1.333rem;
                         margin-bottom: 0.5rem;
                     }
                     a {
@@ -356,12 +356,13 @@
             .items-social {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
+                align-items: flex-end;
                 height: 6rem;
                 h6 {
                     font-weight: 300;
-                    font-size: 1.2rem;
-                    margin-bottom: 0.5rem;
+                    font-size: 1.333rem;
+                    border-bottom: solid 0.1rem #000000;
+                    margin: 0.5rem 0 0.5rem 0;
                 }
                 a {
                     font-size: 1.2rem;
@@ -369,7 +370,7 @@
                     color: #000000;
                 }
                 a:hover {
-                    color: #7a7a7a;
+                    color: #b2b2b2;
                 }
             }
         }
@@ -397,6 +398,7 @@
     #footer {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         margin-bottom: 0;
         height: 450px;
@@ -406,20 +408,20 @@
             flex-direction: row;
             justify-content: space-between;
             width: 90%;
-            align-items: center;
-            margin: 3rem 0;
+            align-items: flex-start;
+            margin: 0.5rem 0;
             .items-address {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 h6 {
-                    font-size: 2rem;
+                    font-size: 1.777rem;
                     font-weight: 300;
                     margin-bottom: 1rem;
                 }
                 p {
-                    font-size: 1.5rem;
-                    max-width: 580px;
+                    font-size: 1.333rem;
+                    max-width: 520px;
                     font-weight: 300;
                     text-align: left;
                     margin: 0.5rem 0;
@@ -432,12 +434,12 @@
                     align-items: flex-start;
                     margin: 0.5rem 0;
                     h6 {
-                        font-size: 2rem;
+                        font-size: 1.777rem;
                         font-weight: 300;
                         margin-bottom: 1rem;
                     }
                     p {
-                        font-size: 1.5rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         margin-bottom: 1rem;
                     }
@@ -449,11 +451,11 @@
                     margin: 0.5rem 0;
                     h6 {
                         font-weight: 300;
-                        font-size: 2rem;
+                        font-size: 1.777rem;
                         margin-bottom: 1rem;
                     }
                     a {
-                        font-size: 1.5rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         color: #000000;
     
@@ -463,20 +465,21 @@
             .items-social {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-                height: 12rem;
+                align-items: flex-end;
+                height: 6rem;
                 h6 {
                     font-weight: 300;
-                    font-size: 2rem;
-                    margin-bottom: 0.5rem;
+                    font-size: 1.777rem;
+                    border-bottom: solid 0.1rem #000000;
+                    margin: 0.5rem 0 0.5rem 0;
                 }
                 a {
-                    font-size: 1.8rem;
+                    font-size: 1.5rem;
                     font-weight: 300;
                     color: #000000;
                 }
                 a:hover {
-                    color: #7a7a7a;
+                    color: #b2b2b2;
                 }
             }
         }
@@ -484,18 +487,17 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 4rem 0 0 0;
+            margin: 5rem 0 0 0;
             p {
-                font-size: 1.5rem;
+                font-size: 1.333rem;
                 font-weight: 300;
-                margin-bottom: 0.5rem;
+                margin-bottom: 0.2rem;
             }
             h6 {
-                font-size: 1.5rem;
+                font-size: 1.333rem;
                 font-weight: 300;
                 a {
                     color: #000000;
-                    text-decoration: underline;
                 }
             }
         }

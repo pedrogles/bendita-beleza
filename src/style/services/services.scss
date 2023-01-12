@@ -3,19 +3,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1150px;
+    height: 1250px;
     width: 100%;
     h3 {
         color: #000000;
         text-shadow: 1px 1px 1px #cacaca;
-        font-size: 1.5rem;
+        font-size: 1.777rem;
         font-weight: 300;
         margin-top: 8rem;
         margin-bottom: 5rem;
     }
     .services-list-one {
         width: 272px;
-        height: 390px;
+        height: 460px;
         background-color: #ffffff70;
         box-shadow: 1px 1px 6px #555555;
         border-radius: 20px;
@@ -26,7 +26,7 @@
         li {
             width: 230px;
             list-style: none;
-            margin: 0.7rem 0;
+            margin: 1rem 0;
             a {
                 border-bottom: solid 0.1rem #CACACA;
                 text-decoration: none;
@@ -37,10 +37,10 @@
                     font-size: 1rem;
                     font-weight: 300;
                     color: #000000;
-                    margin-left: 0.5rem;
+                    margin-left: 1rem;
                 }
                 .link-icon {
-                    margin-right: 0.5rem;
+                    margin-right: 1rem;
                     color: #CACACA;
                     font-size: 0.8rem;
                 }
@@ -49,7 +49,7 @@
     }
     .services-list-two {
         width: 272px;
-        height: 320px;
+        height: 360px;
         background-color: #ffffff70;
         box-shadow: 1px 1px 6px #555555;
         border-radius: 20px;
@@ -66,7 +66,7 @@
         li {
             width: 230px;
             list-style: none;
-            margin: 0.7rem 0;
+            margin: 1rem 0;
             a {
                 border-bottom: solid 0.1rem #CACACA;
                 text-decoration: none;
@@ -77,10 +77,10 @@
                     font-size: 1rem;
                     font-weight: 300;
                     color: #000000;
-                    margin-left: 0.5rem;
+                    margin-left: 1rem;
                 }
                 .link-icon {
-                    margin-right: 0.5rem;
+                    margin-right: 1rem;
                     color: #CACACA;
                     font-size: 0.8rem;
                 }
@@ -106,14 +106,14 @@
         h3 {
             color: #000000;
             text-shadow: 1px 1px 1px #cacaca;
-            font-size: 3rem;
+            font-size: 2.369rem;
             font-weight: 300;
             margin-top: 14rem;
             margin-bottom: 5rem;
         }
         .services-list-one {
-            width: 400px;
-            height: 560px;
+            width: 378px;
+            height: 580px;
             background-color: #ffffff70;
             box-shadow: 1px 1px 6px #555555;
             border-radius: 20px;
@@ -122,9 +122,9 @@
             align-items: center;
             justify-content: center;
             li {
-                width: 340px;
+                width: 320px;
                 list-style: none;
-                margin: 1rem 0;
+                margin: 1.2rem 0;
                 a {
                     border-bottom: solid 0.1rem #CACACA;
                     text-decoration: none;
@@ -132,13 +132,13 @@
                     flex-direction: row;
                     justify-content: space-between;
                     p {
-                        font-size: 1.5rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         color: #000000;
-                        margin-left: 0.5rem;
+                        margin-left: 1.5rem;
                     }
                     .link-icon {
-                        margin-right: 1rem;
+                        margin-right: 1.5rem;
                         color: #CACACA;
                         font-size: 0.8rem;
                     }
@@ -146,7 +146,7 @@
             }
         }
         .services-list-two {
-            width: 400px;
+            width: 378px;
             height: 480px;
             background-color: #ffffff70;
             box-shadow: 1px 1px 6px #555555;
@@ -157,14 +157,14 @@
             justify-content: center;
             margin-top: 2rem;
             h4 {
-                font-size: 1.8rem;
+                font-size: 1.777rem;
                 font-weight: 300;
-                margin-bottom: 4rem;
+                margin-bottom: 3rem;
             }
             li {
-                width: 340px;
+                width: 320px;
                 list-style: none;
-                margin: 1rem 0;
+                margin: 1.2rem 0;
                 a {
                     border-bottom: solid 0.1rem #CACACA;
                     text-decoration: none;
@@ -172,13 +172,13 @@
                     flex-direction: row;
                     justify-content: space-between;
                     p {
-                        font-size: 1.5rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         color: #000000;
-                        margin-left: 0.5rem;
+                        margin-left: 1.5rem;
                     }
                     .link-icon {
-                        margin-right: 1rem;
+                        margin-right: 1.5rem;
                         color: #CACACA;
                         font-size: 0.8rem;
                     }
@@ -188,7 +188,7 @@
         .services-direction  {
             margin-top: 5rem;
             max-width: 400px;
-            font-size: 1.2rem;
+            font-size: 1.222rem;
             font-weight: 300;
             text-align: center;
         }
@@ -200,18 +200,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 2300px;
+        height: 2200px;
         width: 100%;
         h3 {
             color: #000000;
             text-shadow: 1px 1px 1px #cacaca;
-            font-size: 2.8rem;
+            font-size: 2.369rem;
             font-weight: 300;
-            margin-top: 10rem;
-            margin-bottom: 10rem;
+            margin: 12rem 0 6rem 0;
         }
         .services-list-one {
-            width: 600px;
+            width: 512px;
             height: 860px;
             background-color: #ffffff70;
             box-shadow: 1px 1px 6px #555555;
@@ -221,9 +220,9 @@
             align-items: center;
             justify-content: center;
             li {
-                width: 500px;
+                width: 420px;
                 list-style: none;
-                margin: 1.8rem 0;
+                margin: 2rem 0;
                 a {
                     border-bottom: solid 0.1rem #CACACA;
                     text-decoration: none;
@@ -231,7 +230,7 @@
                     flex-direction: row;
                     justify-content: space-between;
                     p {
-                        font-size: 1.8rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         color: #000000;
                         margin-left: 1.5rem;
@@ -239,13 +238,13 @@
                     .link-icon {
                         margin-right: 1.5rem;
                         color: #CACACA;
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
                     }
                 }
             }
         }
         .services-list-two {
-            width: 600px;
+            width: 512px;
             height: 680px;
             background-color: #ffffff70;
             box-shadow: 1px 1px 6px #555555;
@@ -254,16 +253,16 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: 2rem;
+            margin-top: 5rem;
             h4 {
-                font-size: 2.2rem;
+                font-size: 1.777rem;
                 font-weight: 300;
                 margin-bottom: 5rem;
             }
             li {
-                width: 500px;
+                width: 420px;
                 list-style: none;
-                margin: 1.8rem 0;
+                margin: 2rem 0;
                 a {
                     border-bottom: solid 0.1rem #CACACA;
                     text-decoration: none;
@@ -271,7 +270,7 @@
                     flex-direction: row;
                     justify-content: space-between;
                     p {
-                        font-size: 1.8rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         color: #000000;
                         margin-left: 1.5rem;
@@ -279,15 +278,15 @@
                     .link-icon {
                         margin-right: 1rem;
                         color: #CACACA;
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
                     }
                 }
             }
         }
         .services-direction  {
             margin-top: 5rem;
-            max-width: 600px;
-            font-size: 1.8rem;
+            max-width: 400px;
+            font-size: 1.333rem;
             font-weight: 300;
             text-align: center;
         }
@@ -299,18 +298,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 2300px;
+        height: 2200px;
         width: 100%;
         h3 {
             color: #000000;
             text-shadow: 1px 1px 1px #cacaca;
-            font-size: 2.8rem;
+            font-size: 2.369rem;
             font-weight: 300;
-            margin-top: 10rem;
-            margin-bottom: 10rem;
+            margin: 12rem 0 6rem 0;
         }
         .services-list-one {
-            width: 600px;
+            width: 512px;
             height: 860px;
             background-color: #ffffff70;
             box-shadow: 1px 1px 6px #555555;
@@ -320,9 +318,9 @@
             align-items: center;
             justify-content: center;
             li {
-                width: 500px;
+                width: 420px;
                 list-style: none;
-                margin: 1.8rem 0;
+                margin: 2rem 0;
                 a {
                     border-bottom: solid 0.1rem #CACACA;
                     text-decoration: none;
@@ -330,7 +328,7 @@
                     flex-direction: row;
                     justify-content: space-between;
                     p {
-                        font-size: 1.8rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         color: #000000;
                         margin-left: 1.5rem;
@@ -338,13 +336,13 @@
                     .link-icon {
                         margin-right: 1.5rem;
                         color: #CACACA;
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
                     }
                 }
             }
         }
         .services-list-two {
-            width: 600px;
+            width: 512px;
             height: 680px;
             background-color: #ffffff70;
             box-shadow: 1px 1px 6px #555555;
@@ -353,16 +351,16 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: 2rem;
+            margin-top: 5rem;
             h4 {
-                font-size: 2.2rem;
+                font-size: 1.777rem;
                 font-weight: 300;
                 margin-bottom: 5rem;
             }
             li {
-                width: 500px;
+                width: 420px;
                 list-style: none;
-                margin: 1.8rem 0;
+                margin: 2rem 0;
                 a {
                     border-bottom: solid 0.1rem #CACACA;
                     text-decoration: none;
@@ -370,7 +368,7 @@
                     flex-direction: row;
                     justify-content: space-between;
                     p {
-                        font-size: 1.8rem;
+                        font-size: 1.333rem;
                         font-weight: 300;
                         color: #000000;
                         margin-left: 1.5rem;
@@ -378,15 +376,15 @@
                     .link-icon {
                         margin-right: 1rem;
                         color: #CACACA;
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
                     }
                 }
             }
         }
         .services-direction  {
-            margin-top: 5rem;
-            max-width: 600px;
-            font-size: 1.8rem;
+            margin-top: 6rem;
+            max-width: 400px;
+            font-size: 1.333rem;
             font-weight: 300;
             text-align: center;
         }
@@ -403,10 +401,9 @@
         h3 {
             color: #000000;
             text-shadow: 1px 1px 1px #cacaca;
-            font-size: 2.8rem;
+            font-size: 3.157rem;
             font-weight: 300;
-            margin-top: 15rem;
-            margin-bottom: 10rem;
+            margin: 12rem 0 6rem 0;
         }
         .services-list-one {
             width: 600px;
@@ -419,9 +416,9 @@
             align-items: center;
             justify-content: center;
             li {
-                width: 500px;
+                width: 520px;
                 list-style: none;
-                margin: 1.8rem 0;
+                margin: 2rem 0;
                 a {
                     border-bottom: solid 0.1rem #CACACA;
                     text-decoration: none;
@@ -429,13 +426,13 @@
                     flex-direction: row;
                     justify-content: space-between;
                     p {
-                        font-size: 1.8rem;
+                        font-size: 1.777rem;
                         font-weight: 300;
                         color: #000000;
-                        margin-left: 1.5rem;
+                        margin-left: 2rem;
                     }
                     .link-icon {
-                        margin-right: 1.5rem;
+                        margin-right: 2rem;
                         color: #CACACA;
                         font-size: 1.5rem;
                     }
@@ -452,16 +449,16 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: 2rem;
+            margin-top: 5rem;
             h4 {
-                font-size: 2.2rem;
+                font-size: 2.369rem;
                 font-weight: 300;
                 margin-bottom: 5rem;
             }
             li {
-                width: 500px;
+                width: 520px;
                 list-style: none;
-                margin: 1.8rem 0;
+                margin: 2rem 0;
                 a {
                     border-bottom: solid 0.1rem #CACACA;
                     text-decoration: none;
@@ -469,13 +466,13 @@
                     flex-direction: row;
                     justify-content: space-between;
                     p {
-                        font-size: 1.8rem;
+                        font-size: 1.777rem;
                         font-weight: 300;
                         color: #000000;
-                        margin-left: 1.5rem;
+                        margin-left: 2rem;
                     }
                     .link-icon {
-                        margin-right: 1rem;
+                        margin-right: 2rem;
                         color: #CACACA;
                         font-size: 1.5rem;
                     }
@@ -483,9 +480,9 @@
             }
         }
         .services-direction  {
-            margin-top: 5rem;
-            max-width: 600px;
-            font-size: 1.8rem;
+            margin-top: 6rem;
+            max-width: 520px;
+            font-size: 1.777rem;
             font-weight: 300;
             text-align: center;
         }

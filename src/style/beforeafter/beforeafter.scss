@@ -1,16 +1,15 @@
 #beforeAfter {
     background-image: url('../../assets/backgrounds/Beckg2.png');
-    height: 2000px;
+    height: 2100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     h3 {
         color: #ffffff;
         text-shadow: 1px 1px 1px #000000;
-        font-size: 1.5rem;
+        font-size: 1.777rem;
         font-weight: 300;
-        margin-top: 8rem;
-        margin-bottom: 5rem;
+        margin: 8rem 0 5rem 0;
     }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -18,9 +17,8 @@
         height: 3400px;
         background-repeat: round;
         h3 {
-            font-size: 3rem;
-            margin-top: 10rem;
-            margin-bottom: 6rem;
+            font-size: 2.369rem;
+            margin: 14rem 0 5rem 0;
         }
     }
 }
@@ -29,9 +27,9 @@
         height: 1650px;
         h3 {
             color: #eeeeee;
-            font-size: 2.8rem;
+            font-size: 2.369rem;
             font-weight: 300;
-            margin: 10rem 0 8rem 0;
+            margin: 12rem 0 6rem 0;
         } 
     }
 }
@@ -40,9 +38,9 @@
         height: 1650px;
         h3 {
             color: #eeeeee;
-            font-size: 2.8rem;
+            font-size: 2.369rem;
             font-weight: 300;
-            margin: 10rem 0 8rem 0;
+            margin: 12rem 0 6rem 0;
         } 
     }
 }
@@ -51,9 +49,9 @@
         height: 2450px;
         h3 {
             color: #eeeeee;
-            font-size: 2.8rem;
+            font-size: 3.157rem;
             font-weight: 300;
-            margin: 15rem 0 8rem 0;
+            margin: 12rem 0 6rem 0;
         } 
     }
 }

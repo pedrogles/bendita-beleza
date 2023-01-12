@@ -11,7 +11,7 @@
 }
 @media (min-width: 481px) and (max-width: 768px) {
     #banner{
-        height: 15rem;
+        height: 200px;
         img {
             width: 350px;
         }
@@ -22,11 +22,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 180px;
+        height: 260px;
         padding: 0;
         background-image: url("../../assets/backgrounds/Backg1.png");
         img {
-            width: 320px;
+            width: 380px;
         }
     }
 }
@@ -35,19 +35,24 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 220px;
+        height: 260px;
         padding: 0;
         background-image: url("../../assets/backgrounds/Backg1.png");
         img {
-            width: 420px;
+            width: 380px;
         }
     }
 }
 @media (min-width: 1441px) {
     #banner{
-        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 320px;
+        padding: 0;
+        background-image: url("../../assets/backgrounds/Backg1.png");
         img {
-            width: 550px;
+            width: 500px;
         }
     }
 }

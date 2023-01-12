@@ -1,0 +1,164 @@
+#login {
+    background-image: url("../../assets/backgrounds/Beckg2.png");
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        font-size: 1.777rem;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    .login-area {
+        background-color: #ffffff;
+        box-shadow: 1px 1px 6px #000000;
+        width: 272px;
+        height: 400px;
+        margin: 2rem 0;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+        p {
+            font-size: 0.8rem;
+            font-weight: 300;
+            width: 190px;
+            text-align: center;
+            margin: 0.2rem 0 0.5rem 0;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .label-input-block {
+                display: flex;
+                flex-direction: column;
+                margin: 0.5rem 0;
+                label {
+                    font-size: 1rem;
+                    font-weight: 300;
+                    margin-bottom: 0.1rem;
+                }
+                input {
+                    width: 220px;
+                    height: 2rem;
+                    border: solid 0.1rem #000000;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                }
+                input::placeholder {
+                    font-size: 0.8rem;
+                    font-weight: 300;
+                }
+                .input-password {
+                    display: flex;
+                    flex-direction: row;
+                    input {
+                        position: relative;
+                        width: 220px;
+                        height: 2rem;
+                        border: solid 0.1rem #000000;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                    }
+                    input::placeholder {
+                        font-size: 0.8rem;
+                        font-weight: 300;
+                    }
+                    #eye {
+                        position: absolute;
+                        top: 385px;
+                        right: 60px;
+                    }
+                    #eyeBlocked {
+                        position: absolute;
+                        top: 385px;
+                        right: 60px;
+                    }
+                }
+            }
+            .login-button {
+                background-color: #ffffff;
+                margin-top: 2rem;
+                font-size: 1rem;
+                font-weight: 300;
+                width: 220px;
+                height: 2rem;
+            }
+        }
+        .recover-password {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .recover-password-button {
+                font-size: 0.8rem;
+                color: #000000;
+                font-weight: 300;
+                margin-top: 1.5rem;
+                background-color: transparent;
+                border: none;
+                text-decoration: underline;
+            }
+            .label-input-block-recover-password {
+                display: none;
+                flex-direction: column;
+                margin: 1.5rem 0;
+                width: 220px;
+                label {
+                    font-size: 1rem;
+                    font-weight: 300;
+                    margin-bottom: 0.1rem;
+                }
+                input {
+                    width: 220px;
+                    height: 2rem;
+                    border: solid 0.1rem #000000;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                }
+                input::placeholder {
+                    font-size: 0.8rem;
+                    font-weight: 300;
+                }
+                .recover-password-button {
+                    width: 220px;
+                    height: 2rem;
+                    font-size: 1rem;
+                    text-decoration: none;
+                    font-weight: 300;
+                    background-color: transparent;
+                    border: solid 0.1rem #000000;
+
+                }
+            }
+        }
+    }
+    .register-call {
+        width: 272px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+            font-size: 1rem;
+            font-weight: 300;
+            color: #ffffff;
+        }
+        .link-to-register {
+            font-size: 0.8rem;
+            font-weight: 300;
+            margin: 0.5rem;
+            color: #ffffff;
+        }
+    }
+}

@@ -7,9 +7,13 @@
     height: 550px;
     position: relative;
     .contact-image {
+        img {
+            width: 260px;
+        }
         .image-icons {
             display: flex;
             justify-content: center;
+            margin-top: 0.5rem;
             a {
                 color: #ffffff;
                 font-size: 1.3rem;
@@ -35,15 +39,15 @@
         }
         button {
             border: solid 0.1rem #ffffff;
-            background-color: transparent;
-            border-radius: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
             width: 5rem;
-            height: 1.7rem;
+            height: 2rem;
             display: flex;
             justify-content: center;
             align-items: center;
             a {
-                color: #ffffff;
+                color: #000000;
                 font-size: 0.7rem;
                 text-decoration: none;
                 font-weight: 300;
@@ -55,21 +59,6 @@
                 color: #424040;
             }
         }
-    }
-    .footer-arrow {
-        margin-top: 3rem;
-        color: #d7d7d7;
-        font-size: 1rem;
-        -webkit-animation: footer-arrow .70s linear infinite;
-        -moz-animation: footer-arrow .70s linear infinite;
-        -ms-animation: footer-arrow .70s linear infinite;
-        -o-animation: footer-arrow .70s linear infinite;
-        animation: footer-arrow .70s linear infinite;
-    }
-    @keyframes footer-arrow {
-        0% { opacity: 1; }
-        50% { opacity: 0.5; }
-        100% { opacity: 0; }
     }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -107,24 +96,23 @@
             p {
                 color: #ffffff;
                 margin: 0.5rem;
-                font-size: 1.5rem;
+                font-size: 1.777rem;
                 font-weight: 300;
-                max-width: 280px;
+                max-width: 240px;
                 text-align: center;
             }
             button {
-                border: solid 0.1rem #ffffff;
-                background-color: transparent;
-                border-radius: 15px;
-                width: 6.5rem;
-                height: 2.5rem;
+                background-color: #ffffff;
+                border-radius: 5px;
+                width: 8rem;
+                height: 3rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin-top: 0.5rem;
                 a {
-                    color: #ffffff;
-                    font-size: 1rem;
+                    color: #000000;
+                    font-size: 1.222rem;
                     text-decoration: none;
                     font-weight: 300;
                 }
@@ -136,21 +124,6 @@
                 }
             }
         }
-        .footer-arrow {
-            margin-top: 3rem;
-            color: #d7d7d7;
-            font-size: 1rem;
-            -webkit-animation: footer-arrow .70s linear infinite;
-            -moz-animation: footer-arrow .70s linear infinite;
-            -ms-animation: footer-arrow .70s linear infinite;
-            -o-animation: footer-arrow .70s linear infinite;
-            animation: footer-arrow .70s linear infinite;
-        }
-        @keyframes footer-arrow {
-            0% { opacity: 1; }
-            50% { opacity: 0.5; }
-            100% { opacity: 0; }
-        }
     }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -159,10 +132,9 @@
         justify-content: space-around;
         height: 600px;
         .contact-image {
-            margin-top: 2rem;
             img {
                 width: 300px;
-                margin-bottom: 5rem;
+
             }
             .image-icons {
                 display: none;
@@ -173,18 +145,20 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width: 400px;
             .whatsapp-text {
                 display: flex;
+                width: 400px;
                 h5 {
                     color: #ffffff;
                     text-align: left;
-                    font-size: 1.2rem;
+                    font-size: 1.666rem;
                     font-weight: 300;
                     margin: 0;
-                    width: 370px;
+                    width: 400px;
                     text-shadow: 1px 1px 1px #000000;
                     span{
-                        font-size: 2.2rem;
+                        font-size: 2.369rem;
                         font-weight: 300;
                         text-shadow: 1px 1px 3px #000000;
                     }
@@ -193,36 +167,31 @@
             p {
                 color: #ffffff;
                 text-shadow: 1px 1px 1px #000000;
-                margin: 0.5rem 0;
-                font-size: 1.1rem;
+                margin: 1rem 0 1rem 0;
+                font-size: 1.333rem;
                 font-weight: 300;
                 max-width: 240px;
                 text-align: center;
             }
             button {
-                border: solid 0.1rem #ffffff;
-                background-color: transparent;
+                background-color: #ffffff;
                 box-shadow: 1px 1px #000000;
-                border-radius: 20px;
-                width: 5.5rem;
-                height: 2rem;
+                border-radius: 10px;
+                width: 7rem;
+                height: 2.5rem;
                 a {
-                    color: #ffffff;
-                    text-shadow: 1px 1px 1px #000000;
+                    color: #000000;
                     text-decoration: none;
-                    font-size: 0.8rem;
+                    font-size: 1rem;
                     padding: 0;
                 }
             }
             button:hover {
-                background-color: #ffffff;
+                background-color: #b8b8b8;
                 a {
-                    color: #686868;
+                    color: #000000;
                 }
             }
-        }
-        .footer-arrow {
-            display: none;
         }
     }
 }
@@ -232,10 +201,9 @@
         justify-content: space-around;
         height: 600px;
         .contact-image {
-            margin-top: 2rem;
             img {
-                width: 300px;
-                margin-bottom: 5rem;
+                width: 350px;
+
             }
             .image-icons {
                 display: none;
@@ -246,18 +214,20 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width: 400px;
             .whatsapp-text {
                 display: flex;
+                width: 400px;
                 h5 {
                     color: #ffffff;
                     text-align: left;
-                    font-size: 1.2rem;
+                    font-size: 1.666rem;
                     font-weight: 300;
                     margin: 0;
-                    width: 370px;
+                    width: 570px;
                     text-shadow: 1px 1px 1px #000000;
                     span{
-                        font-size: 2.2rem;
+                        font-size: 2.369rem;
                         font-weight: 300;
                         text-shadow: 1px 1px 3px #000000;
                     }
@@ -266,36 +236,31 @@
             p {
                 color: #ffffff;
                 text-shadow: 1px 1px 1px #000000;
-                margin: 0.5rem 0;
-                font-size: 1.1rem;
+                margin: 1rem 0 1rem 0;
+                font-size: 1.333rem;
                 font-weight: 300;
                 max-width: 240px;
                 text-align: center;
             }
             button {
-                border: solid 0.1rem #ffffff;
-                background-color: transparent;
+                background-color: #ffffff;
                 box-shadow: 1px 1px #000000;
-                border-radius: 20px;
-                width: 5.5rem;
-                height: 2rem;
+                border-radius: 10px;
+                width: 7rem;
+                height: 2.5rem;
                 a {
-                    color: #ffffff;
-                    text-shadow: 1px 1px 1px #000000;
+                    color: #000000;
                     text-decoration: none;
-                    font-size: 0.8rem;
+                    font-size: 1rem;
                     padding: 0;
                 }
             }
             button:hover {
-                background-color: #ffffff;
+                background-color: #b8b8b8;
                 a {
-                    color: #686868;
+                    color: #000000;
                 }
             }
-        }
-        .footer-arrow {
-            display: none;
         }
     }
 }
@@ -303,12 +268,11 @@
     #contact {
         flex-direction: row-reverse;
         justify-content: space-around;
-        height: 650px;
+        height: 600px;
         .contact-image {
-            margin-top: 2rem;
             img {
                 width: 450px;
-                margin-bottom: 5rem;
+
             }
             .image-icons {
                 display: none;
@@ -319,18 +283,20 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width: 530px;
             .whatsapp-text {
                 display: flex;
+                width: 530px;
                 h5 {
                     color: #ffffff;
                     text-align: left;
-                    font-size: 2.2rem;
+                    font-size: 2.333rem;
                     font-weight: 300;
                     margin: 0;
-                    width: 650px;
+                    width: 720px;
                     text-shadow: 1px 1px 1px #000000;
                     span{
-                        font-size: 3.8rem;
+                        font-size: 3.157rem;
                         font-weight: 300;
                         text-shadow: 1px 1px 3px #000000;
                     }
@@ -339,36 +305,31 @@
             p {
                 color: #ffffff;
                 text-shadow: 1px 1px 1px #000000;
-                margin: 0 0 1rem 0;
-                font-size: 1.8rem;
+                margin: 1rem 0 1rem 0;
+                font-size: 1.888rem;
                 font-weight: 300;
-                max-width: 400px;
+                max-width: 416px;
                 text-align: center;
             }
             button {
-                border: solid 0.1rem #ffffff;
-                background-color: transparent;
+                background-color: #ffffff;
                 box-shadow: 1px 1px #000000;
-                border-radius: 25px;
-                width: 10rem;
-                height: 3.2rem;
+                border-radius: 10px;
+                width: 9rem;
+                height: 3rem;
                 a {
-                    color: #ffffff;
-                    text-shadow: 1px 1px 1px #000000;
+                    color: #000000;
                     text-decoration: none;
-                    font-size: 1.2rem;
+                    font-size: 1.333rem;
                     padding: 0;
                 }
             }
             button:hover {
-                background-color: #ffffff;
+                background-color: #b8b8b8;
                 a {
-                    color: #686868;
+                    color: #000000;
                 }
             }
-        }
-        .footer-arrow {
-            display: none;
         }
     }
 }
