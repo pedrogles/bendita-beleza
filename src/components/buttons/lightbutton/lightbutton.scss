@@ -1,0 +1,21 @@
+.light-button {
+    padding: .3rem .5rem;
+    background-color: transparent;
+    color: #010101;
+    border-radius: .15rem;
+    font-size: .6rem;
+    border: solid .01rem #010101;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .light-button {
+        padding: .4rem .7rem;
+        background-color: transparent;
+        color: #010101;
+        border-radius: .2rem;
+        font-size: .7rem;
+        border: solid .01rem #010101;
+        cursor: pointer;
+    }
+}

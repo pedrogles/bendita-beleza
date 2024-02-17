@@ -1,0 +1,84 @@
+@import "../../styles/global.scss";
+
+.footer {
+    padding: 2rem;
+    background-color: $footer_color;
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+        .item-title {
+            font-size: 1rem;
+            font-weight: 400;
+            color: $black_color;
+            margin-bottom: .2rem;
+            text-align: center;
+        }
+        .item-paragraph {
+            font-size: .8rem;
+            font-weight: 300;
+            color: $black_color;
+            text-align: center;
+            max-width: 16rem;
+        }
+        .item-anchor {
+            font-size: .8rem;
+            font-weight: 300;
+            color: $black_color;
+            text-align: center;
+        }
+        .item-anchor-dev {
+            font-size: .8rem;
+            font-weight: 300;
+            color: $black_color;
+            margin-left: .25rem;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .footer {
+        padding: 3rem;
+        .footer-item {
+            .item-title {
+                font-size: 1.6rem;
+            }
+            .item-paragraph {
+                font-size: 1.4rem;
+                max-width: 30rem;
+            }
+            .item-anchor {
+                font-size: 1.4rem;
+            }
+            .item-anchor-dev {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 4rem;
+        .footer-item {
+            align-items: flex-start;
+            .item-title {
+                font-size: 1.6rem;
+            }
+            .item-paragraph {
+                font-size: 1.4rem;
+                max-width: 28rem;
+                text-align: start;
+            }
+            .item-anchor {
+                font-size: 1.4rem;
+            }
+            .item-anchor-dev {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

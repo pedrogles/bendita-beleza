@@ -1,0 +1,71 @@
+@import "../../styles/global.scss";
+
+#home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    .home-page-card-buttons {
+        display: flex;
+        gap: .8rem;
+        max-width: 320px;
+        .circle-button {
+            width:  .8rem;
+            height: .8rem;
+            background-color: transparent;
+            border-radius: 50%;
+            border: solid .1rem #9d9d9d;
+            cursor: pointer;
+        }
+        .circle-button:active {
+            background-color: #cacaca;
+        }
+        
+    }
+    .bendita-beleza-cabeleireira-logo {
+        filter: invert(100%);
+        width: 180px;
+        margin: 2rem 0 3rem 0;
+        z-index: 0;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 767px){
+    #home-page {
+        .home-page-card-buttons {
+            margin: 1rem 0;
+            .circle-button {
+                width:  .8rem;
+                height: .8rem;
+                background-color: transparent;
+                border-radius: 50%;
+                border: solid .1rem #9d9d9d;
+            }
+        }
+        .bendita-beleza-cabeleireira-logo {
+            width: 200px;
+            margin: 2rem 0 3rem 0;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #home-page {
+        .home-page-card-buttons {
+            margin: 1.5rem 0;
+            gap: 1.2rem;
+            .circle-button {
+                width:  1.4rem;
+                height: 1.4rem;
+            }
+            .circle-button:hover {
+                background-color: #414141;
+            }
+        }
+        .bendita-beleza-cabeleireira-logo {
+            width: 22rem;
+            margin: 4rem 0 5rem 0;
+        }
+    }
+}

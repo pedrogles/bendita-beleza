@@ -1,0 +1,39 @@
+.page-title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #594032;
+    margin: 6rem 1rem 2rem 1rem;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 1.58rem;
+    font-weight: 400;
+    color: #594032;
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+}
+
+.small-paragraph {
+    font-size: .6rem;
+    font-weight: 400;
+    color: #594032;
+    margin: .5rem;
+}
+
+@media (min-width: 768px) {
+    .page-title {
+        font-size: 3rem;
+        margin: 10rem 0 5rem 0;
+    }
+    .sub-title {
+        font-size: 2.6rem;
+        margin: 5rem;
+    }
+    .small-paragraph {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #594032;
+        margin: 1rem;
+    }
+}

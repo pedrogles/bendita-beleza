@@ -1,0 +1,52 @@
+#contacts-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .bendita-beleza-logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .bendita-beleza-image {
+            width: 4rem;
+            height: 5rem;
+        }
+        .bendita-beleza-title {
+            font-size: 1.5rem;
+            font-weight: 300;
+            font-family: "Merriweather", 'Inter', sans-serif;
+            color: #010101;
+            margin-bottom: .1rem;
+        }
+        .bendita-beleza-paragraph {
+            font-family: "Merriweather", 'Inter', sans-serif;
+            font-weight: 200;
+            font-size: .9rem;
+            color: #010101;
+        }
+    }
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: .5rem;
+        margin: .5rem 0;
+        .social-link {
+            color: #010101;
+            font-size: 1.25rem;
+        }
+    }
+    .whatsapp-call {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .whatsapp-call-paragraph {
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #contacts-page {
+        display: flex;
+    }
+}

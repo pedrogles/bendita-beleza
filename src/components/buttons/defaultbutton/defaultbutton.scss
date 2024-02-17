@@ -1,0 +1,18 @@
+.default-button {
+    padding: .5rem 1rem;
+    background-color: #f7f7f7;
+    color: #010101;
+    border-radius: .3rem;
+    font-size: .7rem;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .default-button {
+        padding: 1rem 1.2rem;
+        background-color: #f7f7f7;
+        color: #010101;
+        border-radius: .4rem;
+        font-size: 1rem;
+    }
+}

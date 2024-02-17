@@ -1,0 +1,171 @@
+.home-page-card {
+    display: flex;
+    flex-direction: column;
+    margin: 4.5rem 0 1rem 0;
+    .home-page-card-photo {
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .home-page-card-text-area {
+        padding: 1rem 1.8rem .5rem 1.8rem;
+        border-radius: 0 0 5px 5px;
+        background: rgba( 255, 255, 255, 0.15 );
+        backdrop-filter: blur( 6px );
+        -webkit-backdrop-filter: blur( 6px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        .home-page-card-text-area-paragraph {
+            font-size: 1.1rem;
+            max-width: 272px;
+            text-align: center;
+        }
+        .home-page-card-button-area{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            gap: .5rem;
+            flex-wrap: wrap;
+            margin: .5rem 0;
+            .home-page-card-button-area-paragraph {
+                font-size: .7rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .home-page-card {
+        margin-top: 0;
+        margin: 5.5rem 0 1rem 0;
+        box-shadow: 1px 1px 3px #999999;
+        width: 320px;
+        .home-page-card-photo {
+            width: 100%;
+            height: 350px;
+            border-radius: 5px 5px 0 0;
+        }
+        .home-page-card-text-area {
+            padding: 1.5rem 1.6rem 2rem 1.6rem;
+            border-radius: 0 0 5px 5px;
+            .home-page-card-text-area-paragraph{
+                font-size: 1.2rem;
+                text-align: left;
+            }
+            .home-page-card-button-area {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+                gap: .5rem;
+                flex-wrap: wrap;
+                margin: .5rem 0;
+                .home-page-card-button-area-paragraph {
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .home-page-card {
+        margin: 9rem 0 1rem 0;
+        box-shadow: 1px 1px 3px #999999;
+        width: 32rem;
+        .home-page-card-photo  {
+            width: 100%;
+            height: 32rem;
+            border-radius: 5px 5px 0 0;
+        }
+        .home-page-card-text-area {
+            padding: 2.5rem 2.6rem 3rem 2.6rem;
+            border-radius: 0 0 5px 5px;
+            .home-page-card-text-area-paragraph {
+                font-size: 1.8rem;
+                max-width: 27rem;
+                text-align: left;
+            }
+            .home-page-card-button-area {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+                gap: 1rem;
+                flex-wrap: wrap;
+                margin: .5rem 0;
+                .home-page-card-button-area-paragraph {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .home-page-card {
+        margin: 11rem 0 1rem 0;
+        box-shadow: 1px 1px 3px #999999;
+        width: 32rem;
+        .home-page-card-photo  {
+            width: 100%;
+            height: 30rem;
+            border-radius: 5px 5px 0 0;
+        }
+        .home-page-card-text-area{
+            padding: 2.5rem 2.6rem 3rem 2.6rem;
+            border-radius: 0 0 5px 5px;
+            .home-page-card-text-area-paragraph{
+                font-size: 1.8rem;
+                max-width: 27rem;
+                text-align: left;
+            }
+            .home-page-card-button-area {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+                gap: 1rem;
+                flex-wrap: wrap;
+                margin: .5rem 0;
+                .home-page-card-button-area-paragraph {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .home-page-card {
+        margin: 9rem 0 1rem 0;
+        box-shadow: 1px 1px 3px #999999;
+        width: 28rem;
+        .home-page-card-photo {
+            width: 100%;
+            height: 30rem;
+            border-radius: 5px 5px 0 0;
+        }
+        .home-page-card-text-area {
+            padding: 2.5rem 2.4rem 2rem 2.4rem;
+            border-radius: 0 0 5px 5px;
+            .home-page-card-text-area-paragraph {
+                font-size: 1.6rem;
+                max-width: 23rem;
+                text-align: left;
+            }
+            .home-page-card-button-area {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+                gap: 1rem;
+                flex-wrap: wrap;
+                margin: .5rem 0;
+                .home-page-card-button-area-paragraph {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}
