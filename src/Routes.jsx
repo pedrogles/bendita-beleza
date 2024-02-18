@@ -1,4 +1,4 @@
-import { Routes as Switch, Route } from "react-router-dom";
+import { Routes as Switch, Route, redirect } from "react-router-dom";
 
 import { HomePage, AboutPage, GalleryPage, LocationPage, ContactsPage, ServicesPage } from "./pages/index";
 
@@ -11,6 +11,8 @@ export default function Routes() {
             <Route exact path="/servicos" element={ <ServicesPage/> }/>
             <Route exact path="/localizacao" element={ <LocationPage/> }/>
             <Route exact path="/contatos" element={ <ContactsPage/> }/>
+            <Route path="*" element={ <HomePage/> }/>
+            {/* Criar página 404 */}
         </Switch>
     )
 }

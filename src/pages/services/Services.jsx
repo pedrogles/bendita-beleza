@@ -48,6 +48,7 @@ export default function Services() {
                                     photo={service.image}
                                     title={service.title}
                                     paragraph={service.paragraph}
+                                    href={service.link}
                                 />
                             </motion.div>
                         )
