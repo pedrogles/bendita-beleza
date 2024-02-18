@@ -16,10 +16,10 @@ export default function Contacts() {
                 <p className="bendita-beleza-paragraph">Cabeleireira</p>
             </div>
             <div className="social-links">
-                <a className="social-link" href="http://" target="_blank" rel="noopener noreferrer">
+                <a className="social-link" href="https://www.instagram.com/benditabelezarv/" target="_blank" rel="noopener noreferrer">
                     <IoLogoInstagram className="insta-icon"/>
                 </a>
-                <a className="social-link" href="http://" target="_blank" rel="noopener noreferrer">
+                <a className="social-link" href="mailto:renatarvcabelosgamil.com.br" target="_blank" rel="noopener noreferrer">
                     <IoMailOutline className="mail-icon"/>
                 </a>
             </div>
