@@ -12,17 +12,17 @@ export default function Home() {
     const [reload, setReload] = useState(false);
     useEffect(() => {
         const buttons = document.querySelectorAll(".circle-button");
-        if(photo == home_images[0]){
+        if(photo === home_images[0]){
             buttons[0].style.backgroundColor = "#cacaca";
             buttons[1].style.backgroundColor = "transparent";
             buttons[2].style.backgroundColor = "transparent";
         }
-        else if(photo == home_images[1]){
+        else if(photo === home_images[1]){
             buttons[0].style.backgroundColor = "transparent";
             buttons[1].style.backgroundColor = "#cacaca";
             buttons[2].style.backgroundColor = "transparent";
         }
-        else if(photo == home_images[2]){
+        else if(photo === home_images[2]){
             buttons[0].style.backgroundColor = "transparent";
             buttons[1].style.backgroundColor = "transparent";
             buttons[2].style.backgroundColor = "#cacaca";

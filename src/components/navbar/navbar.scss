@@ -13,8 +13,7 @@
         align-items: center;
         justify-content: space-between;
         height: 100%;
-        background-color: $navbar_color;
-        border-radius: 0 0 .5rem .5rem;
+        background-color: #ffffff;
         z-index: 0;
         .logo {
             width: 2rem;
@@ -41,7 +40,8 @@
     position: fixed;
     height: 6rem;
     width: 100%;
-    background-color: $navbar_color;
+    background-color: #fffffff0;
+    box-shadow: 0.1rem 0.1rem 0.8rem #cacaca;
     border-radius: 0 0 .5rem .5rem;
     top: 0;
     z-index: 10;
@@ -49,6 +49,7 @@
         width: 3.5rem;
         height: 3.5rem;
         margin-left: 2rem;
+        cursor: pointer;
     }
     .nav-container {
         margin-right: 2rem;

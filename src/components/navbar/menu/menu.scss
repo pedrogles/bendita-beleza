@@ -12,6 +12,7 @@
     transition: 1s ease-in-out;
     z-index: -1;
     border: solid .1rem #594032;
+    border-top: none;
     .menu-list {
         width: 100%;
         display: flex;
@@ -58,13 +59,14 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     #menu {
-        padding: 3rem 2rem 5rem 2rem;
+        padding: 3rem 2rem 6rem 2rem;
         top: -100vh;
         .menu-list {
-            gap: 2.5rem;
+            gap: 3rem;
             .menu-item .menu-link {
-                font-size: 1.6rem;
-                padding-left: 1.5rem;
+                font-size: 1.8rem;
+                padding-left: 2rem;
+                gap: 1rem;
                 .menu-icon {
                     font-size: .6rem;
                     color: #594032;

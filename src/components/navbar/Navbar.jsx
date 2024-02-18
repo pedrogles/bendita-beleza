@@ -1,9 +1,9 @@
+import { MdMenu, MdClose } from "react-icons/md";
+
+import { Link } from "react-router-dom";
+
 import Menu from "./menu/Menu";
 import logo from "../../assets/logo/rv_.svg";
-
-import { FiMenu } from "react-icons/fi";
-import { MdClose } from "react-icons/md";
-import { Link } from "react-router-dom";
 
 import "./navbar.scss";
 
@@ -14,11 +14,12 @@ export default function Navbar() {
         const openMenuIcon = document.querySelector('.open-menu');
         const closeMenuIcon = document.querySelector('.close-menu');
         if(navbar && menu) {
-            menu.style.top = "80%";
+            menu.style.top = "100%";
             menu.style.left = "-2px";
             openMenuIcon.style.display = "none";
             closeMenuIcon.style.display = "block";
             navbar.style.border = "solid .1rem #594032";
+            navbar.style.borderBottom = "none";
         };
     }
     const handleCloseMenu = () => {
@@ -37,18 +38,23 @@ export default function Navbar() {
         <>
             <header id="navbar-mobile">
                 <div className="navbar-items">
-                    <img className="logo" src={logo} alt="" />
-                    <FiMenu className="open-menu" onClick={handleOpenMenu} />
+                    <Link  to="/">
+                        <img className="logo" src={logo} alt="" />
+                    </Link>
+                    <MdMenu className="open-menu" onClick={handleOpenMenu} />
                     <MdClose className="close-menu" onClick={handleCloseMenu}/>
                 </div>
                 <Menu handleCloseMenu={handleCloseMenu} />
             </header> 
             <header id="navbar-large-screen">
-                <img className="logo" src={logo} alt="" />
+                <Link  to="/">
+                    <img className="logo" src={logo} alt="" />
+                </Link>
                 <nav className="nav-container">
                     <ul className="nav-content">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Início</Link></li>
+                            <Link className="nav-link" to="/">Início</Link>
+                        </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/sobre">Sobre nós</Link>
                         </li>

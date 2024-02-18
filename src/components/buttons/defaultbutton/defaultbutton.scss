@@ -1,4 +1,7 @@
 .default-button {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
     padding: .5rem 1rem;
     background-color: #f7f7f7;
     color: #010101;
