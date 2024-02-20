@@ -6,8 +6,8 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer-item">
                 <h4 className="item-title">Onde o salão fica localizado?</h4>
-                <p className="item-paragraph">Rua Professor Renato Carneiro da Cunha, jaguaribe, 172.</p>
-                <p className="item-paragraph">Localizado ao lado do cruzamento com a Rua Primeiro de Maio.</p>
+                <p className="item-paragraph">Rua Carmelo Ruffo, 197, Jaguaribe, João Pessoa - Paraíba.</p>
+                <p className="item-paragraph">Localizado ao lado do Instituto Federal de Educação da Paraíba - IFPB.</p>
             </div>
             <div className="footer-item">
                 <h4 className="item-title">Qual o horário de funcionamento?</h4>
