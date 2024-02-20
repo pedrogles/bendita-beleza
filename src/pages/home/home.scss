@@ -6,24 +6,59 @@
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    .bendita-beleza-cabeleireira-logo {
-        filter: invert(100%);
-        width: 180px;
-        margin: 2rem 0 3rem 0;
-        z-index: 0;
+    .bendita-beleza-title {
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 300;
+        font-family: "Merriweather", 'Inter', sans-serif;
+        color: #010101;
+        margin: 1.5rem 1rem .1rem 1rem;
+    }
+    .bendita-beleza-paragraph {
+        font-family: "Merriweather", 'Inter', sans-serif;
+        font-weight: 200;
+        font-size: .8rem;
+        color: #010101;
+        margin: 0 1rem 1.5rem 1rem;
     }
 }
 
 @media (min-width: 321px) and (max-width: 767px){
-    #home-page .bendita-beleza-cabeleireira-logo {
-        width: 200px;
-        margin: 2rem 0 3rem 0;
+    #home-page {
+        .bendita-beleza-title {
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: 300;
+            font-family: "Merriweather", 'Inter', sans-serif;
+            color: #010101;
+            margin: 2.5rem 0 .1rem 0;
+        }
+        .bendita-beleza-paragraph {
+            font-family: "Merriweather", 'Inter', sans-serif;
+            font-weight: 200;
+            font-size: 1rem;
+            color: #010101;
+            margin: 0 0 2.5rem 0;
+        }
     }
 }
 
 @media (min-width: 768px) {
-    #home-page .bendita-beleza-cabeleireira-logo {
-        width: 22rem;
-        margin: 4rem 0 5rem 0;
+    #home-page {
+        .bendita-beleza-title {
+            text-align: center;
+            font-size: 2.4rem;
+            font-weight: 300;
+            font-family: "Merriweather", 'Inter', sans-serif;
+            color: #010101;
+            margin: 5rem 0 .5rem 0;
+        }
+        .bendita-beleza-paragraph {
+            font-family: "Merriweather", 'Inter', sans-serif;
+            font-weight: 200;
+            font-size: 1.6rem;
+            color: #010101;
+            margin: 0 0 5rem 0;
+        }
     }
 }
