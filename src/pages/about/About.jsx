@@ -1,6 +1,6 @@
 import { PageTitle } from "../../components/texts/Texts";
 import { DefaultButton } from '../../components/buttons/defaultbutton/DefaultButton';
-import RenataVictor from "../../assets/images/renata-victor.svg";
+// import RenataVictor from "../../assets/images/renata-victor.svg";
 
 import "./about.scss";
 
@@ -9,7 +9,7 @@ export default function About() {
         <main id="about-page">
             <PageTitle name="Sobre nós" />
             <div className="founder-container">
-                <img className="founder-image" src={RenataVictor} alt="" />
+                <img className="founder-image" src="https://live.staticflickr.com/65535/53546171496_8d4ae9b5aa_n.jpg" alt="" />
                 <div>
                     <p className="founder-name">Renata Victor de Andrade</p>
                     <p className="founder-description">Criadora</p>

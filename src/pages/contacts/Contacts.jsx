@@ -3,7 +3,7 @@ import { IoMailOutline, IoLogoInstagram  } from "react-icons/io5";
 import { MdOutlineWhatsapp  } from "react-icons/md";
 import { DefaultButton } from '../../components/buttons/defaultbutton/DefaultButton';
 
-import RvLogo from "../../assets/logo/rv_.svg";
+import RvLogo from "../../assets/logo/rv.svg";
 
 import "./contacts.scss";
 

@@ -3,7 +3,7 @@ import { MdMenu, MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 import Menu from "./menu/Menu";
-import logo from "../../assets/logo/rv_.svg";
+import logo from "../../assets/logo/rv.svg";
 
 import "./navbar.scss";
 

@@ -19,8 +19,8 @@ export default function Gallery() {
                 <motion.div drag="x" dragConstraints={{ right: 0, left: -width}} className='inner-carousel'>
                     {gallery_images.map(image => {
                         return (
-                            <motion.div key={image} className='carousel-item'> 
-                                <img className='carousel-image' src={image} alt="" />
+                            <motion.div key={image.id} className='carousel-item'> 
+                                <img className='carousel-image' src={image.src} alt="" />
                             </motion.div>
                         )
                     })}

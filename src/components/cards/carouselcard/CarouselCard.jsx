@@ -4,31 +4,33 @@ import { DefaultButton } from "../../buttons/defaultbutton/DefaultButton";
 import "./carouselcard.scss";
 
 export function CarouselCard({ images }) {
-    const [photo, setPhoto] = useState(images[0])
+    const [photo, setPhoto] = useState(images[0]);
     const [reload, setReload] = useState(false);
     useEffect(() => {
         const buttons = document.querySelectorAll(".circle-button");
-        if(photo === images[0]){
-            buttons[0].style.backgroundColor = "#cccccc";
-            buttons[1].style.backgroundColor = "transparent";
-            buttons[2].style.backgroundColor = "transparent";
-        }
-        else if(photo === images[1]){
-            buttons[0].style.backgroundColor = "transparent";
-            buttons[1].style.backgroundColor = "#cccccc";
-            buttons[2].style.backgroundColor = "transparent";
-        }
-        else if(photo === images[2]){
-            buttons[0].style.backgroundColor = "transparent";
-            buttons[1].style.backgroundColor = "transparent";
-            buttons[2].style.backgroundColor = "#cccccc";
-        }
+        switch (photo) {
+            case images[0]:
+                buttons[0].style.backgroundColor = "#cccccc";
+                buttons[1].style.backgroundColor = "transparent";
+                buttons[2].style.backgroundColor = "transparent";
+                break
+            case images[1]:
+                buttons[0].style.backgroundColor = "transparent";
+                buttons[1].style.backgroundColor = "#cccccc";
+                buttons[2].style.backgroundColor = "transparent";
+                break
+            case images[2]:
+                buttons[0].style.backgroundColor = "transparent";
+                buttons[1].style.backgroundColor = "transparent";
+                buttons[2].style.backgroundColor = "#cccccc";
+                break
+        };
         setReload(false)
-    },[reload])
+    }, [reload]);
     const handle_change_image = (i) => {
         setPhoto(images[i]);
         setReload(true);
-    }
+    };
     // bug on 767px.
     return (
         <div className="carousel-card">
