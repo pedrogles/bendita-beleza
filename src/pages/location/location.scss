@@ -7,7 +7,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .iframe {
+        #map {
             width: 80vw;
             height: 10rem;
             border: none;
@@ -41,12 +41,6 @@
             justify-content: center;
             align-items: center;
             #map {
-                width: 40rem;
-                height: 20rem;
-                border: none;
-                border-radius: .4rem;
-            }
-            .iframe {
                 width: 40rem;
                 height: 20rem;
                 border: none;
