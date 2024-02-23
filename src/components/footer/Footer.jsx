@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="footer-item">
                 <p className="item-paragraph">&copy; {date.getFullYear()} - Bendita Beleza - Renata Victor</p>
                 <p className="item-paragraph-dev">Desenvolvido por
-                    <a className="anchor-dev" href="https://www.linkedin.com/in/pedrogles/" target="_blank" rel="noopener noreferrer">
+                    <a className="anchor-dev" href="https://portfolio-pedrogles.vercel.app/" target="_blank" rel="noopener noreferrer">
                         Pedro Gabriel
                     </a>
                 </p>
