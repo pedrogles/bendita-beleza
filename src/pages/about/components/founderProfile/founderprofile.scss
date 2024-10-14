@@ -1,0 +1,43 @@
+.founder-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 18rem;
+    gap: .6rem;
+    margin: 0 1.2rem;
+    .founder-image {
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: .2rem;
+        box-shadow: 1px 1px 3px #959595;
+    };
+    .founder-name {
+        font-size: .95rem;
+        margin-right: .6rem;
+    };
+    .founder-description {
+        font-size: .8rem;
+    };
+};
+
+@media (min-width: 768px) {
+    .founder-container {
+        justify-content: flex-start;
+        max-width: 36rem;
+        width: 100%;
+        gap: 1rem;
+        margin: 0;
+        .founder-image {
+            width: 6.5rem;
+            height: 6.5rem;
+            border-radius: .4rem;
+        };
+        .founder-name {
+            font-size: 1.6rem;
+            margin-right: 0;
+        };
+        .founder-description {
+            font-size: 1.4rem;
+        };
+    };
+};
