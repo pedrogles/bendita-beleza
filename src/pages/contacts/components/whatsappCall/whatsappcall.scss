@@ -1,0 +1,27 @@
+.whatsapp-call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    margin-bottom: 6rem;
+    .whatsapp-call-paragraph {
+        font-size: 1rem;
+        text-align: center;
+        max-width: 10rem;
+    };
+};
+
+@media (min-width: 768px) {
+    .whatsapp-call {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .8rem;
+        margin-bottom: 8rem;
+        .whatsapp-call-paragraph {
+            font-size: 1.6rem;
+            text-align: center;
+            max-width: 15rem;
+        };
+    };
+};

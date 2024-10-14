@@ -1,0 +1,29 @@
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin: .7rem 0 1rem 0;
+    .social-link {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: #010101;
+        font-size: 1.35rem;
+    };
+};
+
+@media (min-width: 768px) {
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: .8rem;
+        margin: 1rem 0 1.5rem 0;
+        .social-link {
+            color: #010101;
+            font-size: 2.2rem;
+        };
+    };
+};

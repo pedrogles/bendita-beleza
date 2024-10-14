@@ -1,0 +1,53 @@
+.bendita-beleza-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bendita-beleza-image {
+        width: 6rem;
+        height: 6rem;
+        filter: brightness(0%);
+        margin-bottom: .5rem;
+    };
+    .bendita-beleza-title {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 300;
+        font-family: "Merriweather", 'Inter', sans-serif;
+        color: #010101;
+        margin-bottom: .1rem;
+    };
+    .bendita-beleza-paragraph {
+        font-family: "Merriweather", 'Inter', sans-serif;
+        font-weight: 200;
+        font-size: 1rem;
+        color: #010101;
+    };
+};
+
+@media (min-width: 768px) {
+    .bendita-beleza-logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        .bendita-beleza-image {
+            width: 10rem;
+            height: 10rem;
+            margin-bottom: 1rem;
+        };
+        .bendita-beleza-title {
+            text-align: center;
+            font-size: 2.8rem;
+            font-weight: 300;
+            font-family: "Merriweather", 'Inter', sans-serif;
+            color: #010101;
+            margin-bottom: .3rem;
+        };
+        .bendita-beleza-paragraph {
+            font-family: "Merriweather", 'Inter', sans-serif;
+            font-weight: 200;
+            font-size: 1.8rem;
+            color: #010101;
+        };
+    };
+};
