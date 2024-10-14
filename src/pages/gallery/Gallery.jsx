@@ -1,21 +1,17 @@
 import { motion } from 'framer-motion';
-import { useState, useRef, useEffect } from 'react';
 import { PageTitle } from "../../components/texts/Texts";
 import { gallery_images } from "../../utils/images";
 import { FaInstagram } from "react-icons/fa";
 
 import "./gallery.scss";
+import { useCarousel } from '../../hooks/useCarousel';
 
 export default function Gallery() {
-    const [width, setWidth] = useState(0);
-    const carousel = useRef();
-    useEffect(() => {
-        setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-    }, [])
+    const { width, carouselRef } = useCarousel();
     return (
         <main id="gallery-page">
             <PageTitle name="Galeria de Imagens" />
-            <motion.div ref={carousel} className='carousel'>
+            <motion.div ref={carouselRef} className='carousel'>
                 <motion.div drag="x" dragConstraints={{ right: 0, left: -width}} className='inner-carousel'>
                     {gallery_images.map(image => {
                         return (

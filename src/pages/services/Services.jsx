@@ -1,4 +1,3 @@
-import { useEffect, useRef, useState } from "react";
 import { ServiceCard } from "../../components/cards/servicecard/ServiceCard";
 import { PageTitle, SmallParagraph, SubTitle } from "../../components/texts/Texts";
 
@@ -7,20 +6,16 @@ import { motion } from 'framer-motion';
 
 import "./services.scss";
 
+import { useCarousel } from "../../hooks/useCarousel";
+
 export default function Services() {
-    const [carouselWidth_1, setCarouselWidth_1] = useState(0);
-    const [carouselWidth_2, setCarouselWidth_2] = useState(0);
-    const carousel_1 = useRef();
-    const carousel_2 = useRef();
-    useEffect(() => {
-        setCarouselWidth_1(carousel_1.current.scrollWidth - carousel_1.current.offsetWidth);
-        setCarouselWidth_2(carousel_2.current.scrollWidth - carousel_2.current.offsetWidth);
-    }, [])
+    const { carouselRef: carouselRef1, width: width1  } = useCarousel(); 
+    const { carouselRef: carouselRef2, width: width2 } = useCarousel(); 
     return (
         <main id="services-page">
             <PageTitle name="Serviços" />
-            <motion.div ref={carousel_1} className='carousel'>
-                <motion.div drag="x" dragConstraints={{ right: 0, left: -carouselWidth_1}} className='inner-carousel'>
+            <motion.div ref={carouselRef1} className='carousel'>
+                <motion.div drag="x" dragConstraints={{ right: 0, left: -width1}} className='inner-carousel'>
                     {services.map((service, key) => {
                         return (
                             <motion.div key={key}> 
@@ -39,8 +34,8 @@ export default function Services() {
 
             {/* Tratamentos */}
             <SubTitle name="Tratamentos" />
-            <motion.div ref={carousel_2} className='carousel'>
-                <motion.div drag="x" dragConstraints={{ right: 0, left: -carouselWidth_2}} className='inner-carousel'>
+            <motion.div ref={carouselRef2} className='carousel'>
+                <motion.div drag="x" dragConstraints={{ right: 0, left: -width2}} className='inner-carousel'>
                     {treatments.map((service, key) => {
                         return (
                             <motion.div key={key}> 
