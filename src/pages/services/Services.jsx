@@ -4,7 +4,7 @@ import { services, treatments } from "../../utils/service";
 
 import "./services.scss";
 
-export default function Services() {
+export function Services() {
     return (
         <main id="services-page">
             <PageTitle name="Serviços" />

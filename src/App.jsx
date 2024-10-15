@@ -1,15 +1,14 @@
-import { BrowserRouter } from "react-router-dom";
-
+import { AppRoutes } from "./routes/AppRoutes";
 import Navbar from './components/navbar/Navbar';
-import Routes from './Routes';
 import Footer from './components/footer/Footer';
+import { BrowserRouter } from "react-router-dom";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes />
+      <AppRoutes />
       <Footer />
     </BrowserRouter>
-  )
-}
+  );
+};

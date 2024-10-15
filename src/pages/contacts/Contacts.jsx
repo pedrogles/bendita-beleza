@@ -3,7 +3,7 @@ import { SocialLinks, WhatsappCall } from "./components";
 
 import "./contacts.scss";
 
-export default function Contacts() {
+export function Contacts() {
     return (
         <main id="contacts-page">
             <BenditaBelezaLogo image={true} />

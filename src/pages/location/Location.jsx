@@ -3,7 +3,7 @@ import { Map, MapData } from "./components";
 
 import "./location.scss";
 
-export default function Location() {
+export function Location() {
     return (
         <main id="location-page">
             <PageTitle name="Localização" />

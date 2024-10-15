@@ -3,7 +3,7 @@ import { BenditaBelezaLogo } from "../../components/benditaBelezaLogo/BenditaBel
 
 import "./home.scss";
 
-export default function Home() {
+export function Home() {
     return (
         <main id="home-page">
             <CarouselCard/>

@@ -3,7 +3,7 @@ import { FounderProfile, Presentation, Sheduling } from "./components";
 
 import "./about.scss";
 
-export default function About() {
+export function About() {
     return (
         <main id="about-page">
             <PageTitle name="Sobre nós" />
@@ -11,5 +11,5 @@ export default function About() {
             <Presentation />
             <Sheduling />
         </main>
-    )
-}
+    );
+};
