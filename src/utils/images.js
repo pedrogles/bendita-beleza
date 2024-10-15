@@ -1,8 +1,17 @@
-const home_image_1 = "https://live.staticflickr.com/65535/53546235719_c338430c2a_w.jpg";
-const home_image_2 = "https://live.staticflickr.com/65535/53546346605_0f18233244_w.jpg";
-const home_image_3 = "https://live.staticflickr.com/65535/53546235709_b56652e551_w.jpg";
-
-export const home_images = [ home_image_1, home_image_2, home_image_3 ];
+export const home_images = [ 
+    {
+        id: 0,
+        src: "https://live.staticflickr.com/65535/53546235719_c338430c2a_w.jpg"
+    },
+    {
+        id: 1,
+        src: "https://live.staticflickr.com/65535/53546346605_0f18233244_w.jpg"
+    },
+    {
+        id: 2,
+        src: "https://live.staticflickr.com/65535/53546235709_b56652e551_w.jpg"
+    }
+];
 
 export const gallery_images = [ 
     {
