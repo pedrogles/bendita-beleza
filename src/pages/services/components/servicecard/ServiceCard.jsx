@@ -1,4 +1,4 @@
-import { LightButton } from "../../buttons/lightbutton/LightButton";
+import { LightButton } from "../../../../components/buttons/lightbutton/LightButton";
 
 import "./servicecard.scss";
 

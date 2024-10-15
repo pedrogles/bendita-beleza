@@ -5,56 +5,10 @@
     align-items: center;
     color: #000;
     margin-bottom: 4rem;
-    .carousel {
-        width: 90vw;
-        height: 19rem;
-        cursor: grab;
-        overflow: hidden;
-        .inner-carousel {
-            display: flex;
-            gap: 1.2rem;
-        }
-    }
-}
+};
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) {
     #services-page {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: #000;
         margin-bottom: 10rem;
-        .carousel {
-            width: 60vw;
-            height: 25rem;
-            cursor: grab;
-            overflow: hidden;
-            .inner-carousel {
-                display: flex;
-                gap: 1.5rem;
-            }
-        }
-    }
-}
-
-@media (min-width: 1024px) {
-    #services-page {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: #000;
-        margin-bottom: 10rem;
-        .carousel {
-            width: 60vw;
-            height: 20rem;
-            cursor: grab;
-            overflow: hidden;
-            .inner-carousel {
-                display: flex;
-                gap: 1.5rem;
-            }
-        }
-    }
-}
+    };
+};
