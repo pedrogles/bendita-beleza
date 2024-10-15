@@ -6,6 +6,8 @@ import Menu from "./menu/Menu";
 import logo from "../../assets/logo/rv.svg";
 
 import "./navbar.scss";
+import { sections } from "../../utils/pageSections";
+import { scrollToTop } from "../../utils/scrollToTop";
 
 export default function Navbar() {
     const handleOpenMenu = () => {
@@ -32,6 +34,7 @@ export default function Navbar() {
             openMenuIcon.style.display = "block";
             closeMenuIcon.style.display = "none";
             navbar.style.border = "none";
+            scrollToTop();
         };
     }
     return (
@@ -47,29 +50,20 @@ export default function Navbar() {
                 <Menu handleCloseMenu={handleCloseMenu} />
             </header> 
             <header id="navbar-large-screen">
-                <Link  to="/">
+                <Link  to="/" onClick={() => scrollToTop()}>
                     <img className="logo" src={logo} alt="" />
                 </Link>
                 <nav className="nav-container">
                     <ul className="nav-content">
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/">Início</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/sobre">Sobre nós</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/galeria">Galeria</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/servicos">Serviços</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/localizacao">Localização</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contatos">Contatos</Link>
-                        </li>
+                        {sections.map((section) => {
+                            return (
+                                <li key={section.id} className="nav-item">
+                                    <Link className="nav-link" to={section.path} onClick={() => scrollToTop()}>
+                                        {section.name}
+                                    </Link>
+                                </li>
+                            )
+                        })}
                     </ul>
                 </nav>
             </header>
