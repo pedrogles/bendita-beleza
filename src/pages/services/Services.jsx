@@ -1,6 +1,6 @@
 import { ServicesCarousel } from "./components";
 import { PageTitle, SubTitle } from "../../components/texts/Texts";
-import { services, treatments } from "../../utils/service";
+import { services, treatments } from "../../mocks/service";
 
 import "./services.scss";
 

@@ -1,11 +1,11 @@
-import { home_images } from '../../../../utils/images';
+import { homeImages } from '../../../../mocks/images';
 import { useCarouselCard } from "../../../../hooks/useCarouselCard";
 import { DefaultButton } from "../../../../components/buttons/defaultbutton/DefaultButton";
 
 import "./carouselcard.scss";
 
 export function CarouselCard() {
-    const { images, currentImage, indexCurrentImage, handleChangeImage } = useCarouselCard(home_images);
+    const { images, currentImage, indexCurrentImage, handleChangeImage } = useCarouselCard(homeImages);
     return (
         <div className="carousel-card">
             <img 

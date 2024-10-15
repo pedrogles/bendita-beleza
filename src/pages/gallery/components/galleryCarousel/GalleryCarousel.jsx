@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { gallery_images } from '../../../../utils/images';
+import { galleryImages } from '../../../../mocks/images';
 import { useCarousel } from '../../../../hooks/useCarousel';
 
 import "./gallerycarousel.scss";
@@ -9,7 +9,7 @@ export function GalleryCarousel() {
     return (
         <motion.div ref={carouselRef} className='carousel'>
             <motion.div drag="x" dragConstraints={{ right: 0, left: -width}} className='inner-carousel'>
-                {gallery_images.map(image => {
+                {galleryImages.map(image => {
                     return (
                         <motion.div key={image.id} className='carousel-item'> 
                             <img className='carousel-image' src={image.src} alt="" />
@@ -18,5 +18,5 @@ export function GalleryCarousel() {
                 })}
             </motion.div>
         </motion.div>
-    )
-}
+    );
+};

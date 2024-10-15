@@ -1,4 +1,4 @@
-export const home_images = [ 
+export const homeImages = [ 
     {
         id: 0,
         src: "https://live.staticflickr.com/65535/53546235719_c338430c2a_w.jpg"
@@ -13,7 +13,7 @@ export const home_images = [
     }
 ];
 
-export const gallery_images = [ 
+export const galleryImages = [ 
     {
         id: 0,
         src: "https://live.staticflickr.com/65535/53546095508_54e72ae05d_n.jpg"
