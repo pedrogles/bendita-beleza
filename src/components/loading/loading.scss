@@ -1,28 +1,20 @@
-.loading-container {
-    display: flex;
-    align-items: center;
-    height: 10rem;
-    .loading-icon {
-        font-size: 3rem;
-        color: #434343cc;
-        animation: loading 2s ease-in-out infinite;
-    }
-}
+.loading-icon {
+    font-size: 3rem;
+    color: #434343cc;
+    animation: loading 1s ease-in-out infinite;
+};
 
 @media (min-width: 768px) {
-    .loading-container {
-        height: 20rem;
-        .loading-icon {
-            font-size: 4rem;
-        }
-    }
-}
+    .loading-icon {
+        font-size: 4rem;
+    };
+};
 
 @keyframes loading {
     0% {
         transform: rotate(90deg);
-    }
+    };
     100% {
         transform: rotate(450deg);
-    }
-}
+    };
+};

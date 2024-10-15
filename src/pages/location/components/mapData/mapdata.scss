@@ -1,0 +1,24 @@
+.map-data {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    .map-paragraph {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        color: #010101;
+        text-align: center;
+        max-width: 18rem;
+    };
+};
+
+@media (min-width: 768px) {
+    .map-data {
+        padding: 3rem 2rem 2rem 2rem;
+        .map-paragraph {
+            font-size: 1.6rem;
+            max-width: 30rem;
+        };
+    };
+};
